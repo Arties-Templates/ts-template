@@ -1005,16 +1005,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sq@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "sq@workspace:."
-  dependencies:
-    "@artiefuzzz/eslint-config": ^1.3.1
-    "@artiefuzzz/ts": ^1.3.2
-    eslint: ^8.16.0
-  languageName: unknown
-  linkType: soft
-
 "strip-ansi@npm:^6.0.1":
   version: 6.0.1
   resolution: "strip-ansi@npm:6.0.1"
@@ -1039,6 +1029,16 @@ __metadata:
   checksum: 3dda818de06ebbe5b9653e07842d9479f3555ebc77e9a0280caf5a14fb877ffee9ed57007c3b78f5a6324b8dbeec648d9e97a24e2ed9fdb81ddc69ea07100f4a
   languageName: node
   linkType: hard
+
+"template@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "template@workspace:."
+  dependencies:
+    "@artiefuzzz/eslint-config": ^1.3.1
+    "@artiefuzzz/ts": ^1.3.2
+    eslint: ^8.16.0
+  languageName: unknown
+  linkType: soft
 
 "text-table@npm:^0.2.0":
   version: 0.2.0

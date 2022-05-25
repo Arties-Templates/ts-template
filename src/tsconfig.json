@@ -3,6 +3,8 @@
   "compilerOptions": {
     "target": "ESNext",
     "outDir": "../build",
+    "declaration": true,
+    "declarationDir": "../build/types",
     "importsNotUsedAsValues": "error",
     "experimentalDecorators": true,
     "baseUrl": ".",
