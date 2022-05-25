@@ -1,3 +1,3 @@
-export function world() {
-  return 'Hello world!'
+export function world(): string {
+  return 'Hello, World!'
 }
