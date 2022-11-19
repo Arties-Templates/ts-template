@@ -27,7 +27,7 @@
     "@types/node": "18.11.9",
     "ava": "5.1.0",
     "commitizen": "4.2.5",
-    "eslint": "8.27.0",
+    "eslint": "8.28.0",
     "husky": "8.0.2",
     "inquirer": "8.2.5",
     "lint-staged": "13.0.3",
