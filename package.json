@@ -28,7 +28,7 @@
     "ava": "5.1.0",
     "commitizen": "4.2.6",
     "eslint": "8.31.0",
-    "husky": "8.0.2",
+    "husky": "8.0.3",
     "inquirer": "8.2.5",
     "lint-staged": "13.1.0",
     "pinst": "3.0.0",
