@@ -1,5 +1,5 @@
 {
-  "packageManager": "yarn@3.3.1",
+  "packageManager": "yarn@3.4.1",
   "name": "template",
   "version": "1.0.0",
   "description": "Replace this!",
@@ -24,7 +24,7 @@
     "@commitlint/cli": "17.4.2",
     "@commitlint/config-conventional": "17.4.2",
     "@commitlint/cz-commitlint": "17.4.2",
-    "@types/node": "18.11.18",
+    "@types/node": "18.11.19",
     "ava": "5.1.1",
     "commitizen": "4.3.0",
     "eslint": "8.33.0",
