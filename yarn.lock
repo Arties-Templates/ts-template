@@ -487,10 +487,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.16.8":
-  version: 18.16.8
-  resolution: "@types/node@npm:18.16.8"
-  checksum: d2ec9b61abd260b0fa1e33e4eca8f0089ebb6f6ec1ad2f036a4d01af11dba4f1dbff95b2a1f5dbe9eab3a6f38ed4bd8bf95eb2de9ad96b1caa1f67671e623c1d
+"@types/node@npm:18.16.10":
+  version: 18.16.10
+  resolution: "@types/node@npm:18.16.10"
+  checksum: 1db35543ae98d4a98731037a11a9478480d1260ff3778da70b9a137a3023666d20bab1573b584c401058f76c0d5f7dfbbc157b70a059452e086c8da5639cc653
   languageName: node
   linkType: hard
 
@@ -4520,7 +4520,7 @@ __metadata:
     "@commitlint/cli": 17.6.3
     "@commitlint/config-conventional": 17.6.3
     "@commitlint/cz-commitlint": 17.5.0
-    "@types/node": 18.16.8
+    "@types/node": 18.16.10
     ava: 5.2.0
     commitizen: 4.3.0
     eslint: 8.40.0
