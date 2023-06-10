@@ -24,7 +24,7 @@
     "@commitlint/cli": "17.6.5",
     "@commitlint/config-conventional": "17.6.5",
     "@commitlint/cz-commitlint": "17.5.0",
-    "@types/node": "18.16.16",
+    "@types/node": "18.16.17",
     "ava": "5.3.0",
     "commitizen": "4.3.0",
     "eslint": "8.42.0",
