@@ -295,9 +295,9 @@ __metadata:
   linkType: hard
 
 "@eslint-community/regexpp@npm:^4.4.0, @eslint-community/regexpp@npm:^4.6.1":
-  version: 4.10.1
-  resolution: "@eslint-community/regexpp@npm:4.10.1"
-  checksum: 1e04bc366fb8152c9266258cd25e3fded102f1d212a9476928e3cb98c48be645df6d676728d1c596053992fb9134879fe0de23c9460035b342cceb22d3af1776
+  version: 4.11.0
+  resolution: "@eslint-community/regexpp@npm:4.11.0"
+  checksum: 97d2fe46690b69417a551bd19a3dc53b6d9590d2295c43cc4c4e44e64131af541e2f4a44d5c12e87de990403654d3dae9d33600081f3a2f0386b368abc9111ec
   languageName: node
   linkType: hard
 
@@ -488,16 +488,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
-  version: 20.14.8
-  resolution: "@types/node@npm:20.14.8"
-  dependencies:
-    undici-types: ~5.26.4
-  checksum: a9128840005d4a0aba68826e22ac0fdd86bb9073f1d274217d3509b52f969d1aab83415c85a8461259f33cf34f9eee02fb13dca059865bed2ba2e728bc936a76
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:20.14.9":
+"@types/node@npm:*, @types/node@npm:20.14.9":
   version: 20.14.9
   resolution: "@types/node@npm:20.14.9"
   dependencies:
@@ -1028,9 +1019,9 @@ __metadata:
   linkType: hard
 
 "callsites@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "callsites@npm:4.1.0"
-  checksum: 4ad31de7b7615fa25bdab9c2373865209d2d5190f895cdf2e2f518bd1dafa7ebcda2e6e9cc9640f2dfde6b3893d82fa4359a78ffc27baad2503227553c6882fa
+  version: 4.2.0
+  resolution: "callsites@npm:4.2.0"
+  checksum: 9a740675712076a38208967d7f80b525c9c7f4524c2af5d3936c5e278a601af0423a07e91f79679fec0546f3a52514d56969c6fe65f84d794e64a36b1f5eda8a
   languageName: node
   linkType: hard
 
@@ -2122,8 +2113,8 @@ __metadata:
   linkType: hard
 
 "globby@npm:^14.0.0":
-  version: 14.0.1
-  resolution: "globby@npm:14.0.1"
+  version: 14.0.2
+  resolution: "globby@npm:14.0.2"
   dependencies:
     "@sindresorhus/merge-streams": ^2.1.0
     fast-glob: ^3.3.2
@@ -2131,7 +2122,7 @@ __metadata:
     path-type: ^5.0.0
     slash: ^5.1.0
     unicorn-magic: ^0.1.0
-  checksum: 33568444289afb1135ad62d52d5e8412900cec620e3b6ece533afa46d004066f14b97052b643833d7cf4ee03e7fac571430130cde44c333df91a45d313105170
+  checksum: 2cee79efefca4383a825fc2fcbdb37e5706728f2d39d4b63851927c128fff62e6334ef7d4d467949d411409ad62767dc2d214e0f837a0f6d4b7290b6711d485c
   languageName: node
   linkType: hard
 
@@ -3617,13 +3608,13 @@ __metadata:
   linkType: hard
 
 "string-width@npm:^7.0.0":
-  version: 7.1.0
-  resolution: "string-width@npm:7.1.0"
+  version: 7.2.0
+  resolution: "string-width@npm:7.2.0"
   dependencies:
     emoji-regex: ^10.3.0
     get-east-asian-width: ^1.0.0
     strip-ansi: ^7.1.0
-  checksum: a183573fe7209e0d294f661846d33f8caf72aa86d983e5b48a0ed45ab15bcccb02c6f0344b58b571988871105457137b8207855ea536827dbc4a376a0f31bf8f
+  checksum: 42f9e82f61314904a81393f6ef75b832c39f39761797250de68c041d8ba4df2ef80db49ab6cd3a292923a6f0f409b8c9980d120f7d32c820b4a8a84a2598a295
   languageName: node
   linkType: hard
 
@@ -4133,8 +4124,8 @@ __metadata:
   linkType: hard
 
 "yocto-queue@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "yocto-queue@npm:1.0.0"
-  checksum: 2cac84540f65c64ccc1683c267edce396b26b1e931aa429660aefac8fbe0188167b7aee815a3c22fa59a28a58d898d1a2b1825048f834d8d629f4c2a5d443801
+  version: 1.1.1
+  resolution: "yocto-queue@npm:1.1.1"
+  checksum: f2e05b767ed3141e6372a80af9caa4715d60969227f38b1a4370d60bffe153c9c5b33a862905609afc9b375ec57cd40999810d20e5e10229a204e8bde7ef255c
   languageName: node
   linkType: hard
