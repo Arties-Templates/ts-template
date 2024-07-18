@@ -357,16 +357,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/checkbox@npm:^2.3.11":
-  version: 2.3.11
-  resolution: "@inquirer/checkbox@npm:2.3.11"
+"@inquirer/checkbox@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "@inquirer/checkbox@npm:2.4.0"
   dependencies:
     "@inquirer/core": ^9.0.3
     "@inquirer/figures": ^1.0.4
     "@inquirer/type": ^1.5.0
     ansi-escapes: ^4.3.2
     yoctocolors-cjs: ^2.1.2
-  checksum: c008e33f634e42d154a62f3dd9fa15727e17ec4b408126f13e445fc990c32576cba7045f7ef94ae20ed771c4856d5b3cb33fadc6598dcca1a6fa2d39b909607b
+  checksum: ecf35f35a10fad7fb2b3db5126cb4a68e75d25942b57c4237d1fb5d02f4d9d7d91707f0524ffa8881e30888ac0a1e0ddbb7aec17427524c22b3a8cdd05e0428d
   languageName: node
   linkType: hard
 
@@ -461,11 +461,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/prompts@npm:^5.1.3":
-  version: 5.1.3
-  resolution: "@inquirer/prompts@npm:5.1.3"
+"@inquirer/prompts@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "@inquirer/prompts@npm:5.2.0"
   dependencies:
-    "@inquirer/checkbox": ^2.3.11
+    "@inquirer/checkbox": ^2.4.0
     "@inquirer/confirm": ^3.1.15
     "@inquirer/editor": ^2.1.15
     "@inquirer/expand": ^2.1.15
@@ -473,8 +473,8 @@ __metadata:
     "@inquirer/number": ^1.0.3
     "@inquirer/password": ^2.1.15
     "@inquirer/rawlist": ^2.1.15
-    "@inquirer/select": ^2.3.11
-  checksum: 8c8120c10fcae237699e5b7c6a8dbffe70bb331708bdfd75a48ea56dcd431d2641f90d632bae00e88150442fb2ea43173752fad40ec2b3f0274932b0b5dccb46
+    "@inquirer/select": ^2.4.0
+  checksum: bcab2fc5fe9ee136eb34e240bbc9c0662d2f675937e027aa970e0ad011a37aa58bb0a38ab229ebc620725e9afd966a41dc68e0ebfbe7931366ef57a6970a8ed8
   languageName: node
   linkType: hard
 
@@ -489,16 +489,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/select@npm:^2.3.11":
-  version: 2.3.11
-  resolution: "@inquirer/select@npm:2.3.11"
+"@inquirer/select@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "@inquirer/select@npm:2.4.0"
   dependencies:
     "@inquirer/core": ^9.0.3
     "@inquirer/figures": ^1.0.4
     "@inquirer/type": ^1.5.0
     ansi-escapes: ^4.3.2
     yoctocolors-cjs: ^2.1.2
-  checksum: df245b86b854ffaa59d4793a3f623f2ec5f495306cf9fbce23ecc7e814eaa4d4414153b647801d9d269b88ae3647b208d19cdf017e556499c0879462635dd61b
+  checksum: 796f4f6505ca34f69b06e14facf8c76c497f0b5abf69e87e8926792109845317c46f979cb9784cb3450555a56ee4ce7fe0e9c3726b2c94277e670a12c47cb172
   languageName: node
   linkType: hard
 
@@ -2380,12 +2380,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:9.0.11":
-  version: 9.0.11
-  resolution: "husky@npm:9.0.11"
+"husky@npm:9.1.0":
+  version: 9.1.0
+  resolution: "husky@npm:9.1.0"
   bin:
-    husky: bin.mjs
-  checksum: 1aebc3334dc7ac6288ff5e1fb72cfb447cfa474e72cf7ba692e8c5698c573ab725c28c6a5088c9f8e6aca5f47d40fa7261beffbc07a4d307ca21656dc4571f07
+    husky: bin.js
+  checksum: 604e1d7d76cde9350f3fbbd04830706c9c93ae1e110a71f9f6c157f8c7ea624c3dfe36fc77c343e98b22cc0a6a3cbd00d8f750b819a3015190c2307e59b05dad
   languageName: node
   linkType: hard
 
@@ -2481,18 +2481,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inquirer@npm:10.0.2":
-  version: 10.0.2
-  resolution: "inquirer@npm:10.0.2"
+"inquirer@npm:10.0.3":
+  version: 10.0.3
+  resolution: "inquirer@npm:10.0.3"
   dependencies:
-    "@inquirer/prompts": ^5.1.3
+    "@inquirer/prompts": ^5.2.0
     "@inquirer/type": ^1.5.0
     "@types/mute-stream": ^0.0.4
     ansi-escapes: ^4.3.2
     mute-stream: ^1.0.0
     run-async: ^3.0.0
     rxjs: ^7.8.1
-  checksum: d1e2f0e7d3d08d1862f782f7adb5c74e8c2a7ee42d78574321287b2d55ecf7569bdf71744da8d2c575d5bb09da110e98291969092a1178fbdb6b1e8b72d6d0cf
+  checksum: 782a39e0d9c06ce25f23b582e87c919603a2c5e8056eba31165a5b573202975b271e1fd032aa264a3195f9f6ca4d0ba07109c7d45038ea407dc4418695fef442
   languageName: node
   linkType: hard
 
@@ -3930,8 +3930,8 @@ __metadata:
     ava: 6.1.3
     commitizen: 4.3.0
     eslint: 9.7.0
-    husky: 9.0.11
-    inquirer: 10.0.2
+    husky: 9.1.0
+    inquirer: 10.0.3
     lint-staged: 15.2.7
     pinst: 3.0.0
     ts-node: 10.9.2
