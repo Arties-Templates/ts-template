@@ -461,9 +461,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/prompts@npm:^5.3.0":
-  version: 5.3.0
-  resolution: "@inquirer/prompts@npm:5.3.0"
+"@inquirer/prompts@npm:^5.3.2":
+  version: 5.3.2
+  resolution: "@inquirer/prompts@npm:5.3.2"
   dependencies:
     "@inquirer/checkbox": ^2.4.2
     "@inquirer/confirm": ^3.1.17
@@ -473,9 +473,9 @@ __metadata:
     "@inquirer/number": ^1.0.5
     "@inquirer/password": ^2.1.17
     "@inquirer/rawlist": ^2.1.17
-    "@inquirer/search": ^1.0.0
+    "@inquirer/search": ^1.0.2
     "@inquirer/select": ^2.4.2
-  checksum: b04a8baa929782b379b8b324ecdd7d90f2d2296ca2ff8db11ce8479d35ac27a77d6d888672c01ea777c4af8812c7de41fbbbd8692a784aafeb3e7dc50599d990
+  checksum: f2b1f0db6c9be252f8b75446028f11db7f303ccf76889e93fec99b1d428b8b70e145619647f0c70261cd6056ff3d6852ae927d533cc208701948d05932d80037
   languageName: node
   linkType: hard
 
@@ -490,15 +490,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/search@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@inquirer/search@npm:1.0.0"
+"@inquirer/search@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@inquirer/search@npm:1.0.2"
   dependencies:
     "@inquirer/core": ^9.0.5
     "@inquirer/figures": ^1.0.5
     "@inquirer/type": ^1.5.1
     yoctocolors-cjs: ^2.1.2
-  checksum: 4a34989c51aaa8d27a9ca7e21f9debce7c858115fc00ea940ace6595e689e4e8214617fbe8d4aa71863116dfac06d03f354bb25ef5d2db96d45e8e778c2306dc
+  checksum: eb754c980a0056295808d317754cb64e7a11e26e01bfb6aac0ebd6d0e9f0edef7d3f1230e02c3910f27cf615da8722a8eaeda545819b2dcacdace635ef3eddfc
   languageName: node
   linkType: hard
 
@@ -2485,18 +2485,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inquirer@npm:10.1.0":
-  version: 10.1.0
-  resolution: "inquirer@npm:10.1.0"
+"inquirer@npm:10.1.2":
+  version: 10.1.2
+  resolution: "inquirer@npm:10.1.2"
   dependencies:
-    "@inquirer/prompts": ^5.3.0
+    "@inquirer/prompts": ^5.3.2
     "@inquirer/type": ^1.5.1
     "@types/mute-stream": ^0.0.4
     ansi-escapes: ^4.3.2
     mute-stream: ^1.0.0
     run-async: ^3.0.0
     rxjs: ^7.8.1
-  checksum: 4dd151dd92db2692002afe38255fa6b58e788a3740186229eb35279e4fdf68f68fe2aa53cc962cf4c9fdc7caedf73324e66352068172c65807f9e26aa341318b
+  checksum: 58b25f8e443306c22ecdee33f6c398005481db7708ac9777cd22dfef343bb2a91aa26a2ca0a9d741e7fa51d4e74c8f9be4a7048622cfd18246bcb96f6e55a696
   languageName: node
   linkType: hard
 
@@ -3935,7 +3935,7 @@ __metadata:
     commitizen: 4.3.0
     eslint: 9.7.0
     husky: 9.1.1
-    inquirer: 10.1.0
+    inquirer: 10.1.2
     lint-staged: 15.2.7
     pinst: 3.0.0
     ts-node: 10.9.2
