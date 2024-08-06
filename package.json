@@ -1,5 +1,5 @@
 {
-  "packageManager": "yarn@3.8.3",
+  "packageManager": "yarn@3.8.4",
   "name": "template",
   "version": "1.0.0",
   "description": "Replace this!",
@@ -29,7 +29,7 @@
     "commitizen": "4.3.0",
     "eslint": "9.8.0",
     "husky": "9.1.4",
-    "inquirer": "10.1.7",
+    "inquirer": "10.1.8",
     "lint-staged": "15.2.8",
     "pinst": "3.0.0",
     "ts-node": "10.9.2",
