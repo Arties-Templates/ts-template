@@ -33,7 +33,7 @@
     "lint-staged": "15.2.8",
     "pinst": "3.0.0",
     "ts-node": "10.9.2",
-    "typescript": "4.9.5"
+    "typescript": "5.5.4"
   },
   "ava": {
     "extensions": [
