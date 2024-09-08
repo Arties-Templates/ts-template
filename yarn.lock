@@ -2517,10 +2517,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inquirer@npm:10.2.1":
-  version: 10.2.1
-  resolution: "inquirer@npm:10.2.1"
+"inquirer@npm:10.2.2":
+  version: 10.2.2
+  resolution: "inquirer@npm:10.2.2"
   dependencies:
+    "@inquirer/core": ^9.1.0
     "@inquirer/prompts": ^5.5.0
     "@inquirer/type": ^1.5.3
     "@types/mute-stream": ^0.0.4
@@ -2528,7 +2529,7 @@ __metadata:
     mute-stream: ^1.0.0
     run-async: ^3.0.0
     rxjs: ^7.8.1
-  checksum: 460a22285206cda45282a5590a05b54d722401dd5979c961ad06217bb9ace6d7947a8e3f2be1bd059b7141aa4c37ecb872a70755bd627348264ebe9ecfe4a462
+  checksum: 41e09d818f9545d52698f69f6c832f6a2ea2cf40e7b0e056147aadd8ea4b76d489a2a10e34b0593cd1f43989def3114c086502166c2a0bdab353ea5c43f4173b
   languageName: node
   linkType: hard
 
@@ -3976,7 +3977,7 @@ __metadata:
     commitizen: 4.3.0
     eslint: 9.10.0
     husky: 9.1.5
-    inquirer: 10.2.1
+    inquirer: 10.2.2
     lint-staged: 15.2.10
     pinst: 3.0.0
     ts-node: 10.9.2
