@@ -92,16 +92,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-validator@npm:^19.0.3":
-  version: 19.0.3
-  resolution: "@commitlint/config-validator@npm:19.0.3"
-  dependencies:
-    "@commitlint/types": ^19.0.3
-    ajv: ^8.11.0
-  checksum: a1a9678e0994d87fa98f0aee1a877dfaf60640b657589260ec958898d51affabba73d6684edafa1cc979e4e94b51f14fbd9b605eae77c2838ee52bcbcc110bef
-  languageName: node
-  linkType: hard
-
 "@commitlint/config-validator@npm:^19.5.0":
   version: 19.5.0
   resolution: "@commitlint/config-validator@npm:19.5.0"
@@ -140,13 +130,6 @@ __metadata:
     lodash.startcase: ^4.4.0
     lodash.upperfirst: ^4.3.1
   checksum: a9d575637121221cb63232ee96024a63614052ccc205ec8fdab53feed70104b85608e31b4632f280d2876f10a2243474191d96e448b222abfc8d8ab48f9f8e7e
-  languageName: node
-  linkType: hard
-
-"@commitlint/execute-rule@npm:^19.0.0":
-  version: 19.0.0
-  resolution: "@commitlint/execute-rule@npm:19.0.0"
-  checksum: 4c5cbf9ab0e2b85b00ceea84e5598b1b3cceaa20a655ee954c45259cca9efc80cf5cf7d9eec04715a100c2da282cbcf6aba960ad53a47178090c0513426ac236
   languageName: node
   linkType: hard
 
@@ -189,25 +172,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:>6.1.1":
-  version: 19.4.0
-  resolution: "@commitlint/load@npm:19.4.0"
-  dependencies:
-    "@commitlint/config-validator": ^19.0.3
-    "@commitlint/execute-rule": ^19.0.0
-    "@commitlint/resolve-extends": ^19.1.0
-    "@commitlint/types": ^19.0.3
-    chalk: ^5.3.0
-    cosmiconfig: ^9.0.0
-    cosmiconfig-typescript-loader: ^5.0.0
-    lodash.isplainobject: ^4.0.6
-    lodash.merge: ^4.6.2
-    lodash.uniq: ^4.5.0
-  checksum: ebf3c8f4567cef9b4099d740f145eea6dc8335059ebfbda18d9c65701b810c46634aeeea721a6c7ebbef6cf8d11ccf1402891fee89ca90652f723987ee5c410c
-  languageName: node
-  linkType: hard
-
-"@commitlint/load@npm:^19.5.0":
+"@commitlint/load@npm:>6.1.1, @commitlint/load@npm:^19.5.0":
   version: 19.5.0
   resolution: "@commitlint/load@npm:19.5.0"
   dependencies:
@@ -256,20 +221,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/resolve-extends@npm:^19.1.0":
-  version: 19.1.0
-  resolution: "@commitlint/resolve-extends@npm:19.1.0"
-  dependencies:
-    "@commitlint/config-validator": ^19.0.3
-    "@commitlint/types": ^19.0.3
-    global-directory: ^4.0.1
-    import-meta-resolve: ^4.0.0
-    lodash.mergewith: ^4.6.2
-    resolve-from: ^5.0.0
-  checksum: 87df82cfad1e157e600d3bef486c84ab0706e6b21411c97770104f7d1f824524606d8d6493418f98a529ab6c10d3691b50d6a779b07ef6dca5c5fd69848f4951
-  languageName: node
-  linkType: hard
-
 "@commitlint/resolve-extends@npm:^19.5.0":
   version: 19.5.0
   resolution: "@commitlint/resolve-extends@npm:19.5.0"
@@ -312,16 +263,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/types@npm:^19.0.3":
-  version: 19.0.3
-  resolution: "@commitlint/types@npm:19.0.3"
-  dependencies:
-    "@types/conventional-commits-parser": ^5.0.0
-    chalk: ^5.3.0
-  checksum: 44e67f4861f9b137f43a441f8ab255676b7a276c82ca46ba7846ca1057d170af92a87d3e2a1378713dc4e33a68c8af513683cb96dcd29544e48e2c825109ea6f
-  languageName: node
-  linkType: hard
-
 "@commitlint/types@npm:^19.5.0":
   version: 19.5.0
   resolution: "@commitlint/types@npm:19.5.0"
@@ -353,9 +294,9 @@ __metadata:
   linkType: hard
 
 "@eslint-community/regexpp@npm:^4.11.0, @eslint-community/regexpp@npm:^4.4.0":
-  version: 4.11.0
-  resolution: "@eslint-community/regexpp@npm:4.11.0"
-  checksum: 97d2fe46690b69417a551bd19a3dc53b6d9590d2295c43cc4c4e44e64131af541e2f4a44d5c12e87de990403654d3dae9d33600081f3a2f0386b368abc9111ec
+  version: 4.11.1
+  resolution: "@eslint-community/regexpp@npm:4.11.1"
+  checksum: 6986685529d30e33c2640973c3d8e7ddd31bef3cc8cb10ad54ddc1dea12680779a2c23a45562aa1462c488137a3570e672d122fac7da22d82294382d915cec70
   languageName: node
   linkType: hard
 
@@ -448,23 +389,22 @@ __metadata:
   linkType: hard
 
 "@inquirer/core@npm:^9.1.0":
-  version: 9.1.0
-  resolution: "@inquirer/core@npm:9.1.0"
+  version: 9.2.0
+  resolution: "@inquirer/core@npm:9.2.0"
   dependencies:
     "@inquirer/figures": ^1.0.5
-    "@inquirer/type": ^1.5.3
+    "@inquirer/type": ^1.5.4
     "@types/mute-stream": ^0.0.4
-    "@types/node": ^22.5.2
+    "@types/node": ^22.5.5
     "@types/wrap-ansi": ^3.0.0
     ansi-escapes: ^4.3.2
-    cli-spinners: ^2.9.2
     cli-width: ^4.1.0
     mute-stream: ^1.0.0
     signal-exit: ^4.1.0
     strip-ansi: ^6.0.1
     wrap-ansi: ^6.2.0
     yoctocolors-cjs: ^2.1.2
-  checksum: c671d88aaecf828ad8a9fe9a897637fb0c5c7dee5840e7c8711b914dba7e0caadf61a7c515b3f3302e77e6ac95a9249ea5c29792221ccda317db7ab760485077
+  checksum: 7eff178fe416ad5aa667d7b10adb77affb05eda0a1228321411675c2ead6ad83a8418948c49c0beb7ea4c1245bfdd88fcd20ffbaafe2ebdda9d9e83847a72d45
   languageName: node
   linkType: hard
 
@@ -582,12 +522,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/type@npm:^1.5.3":
-  version: 1.5.3
-  resolution: "@inquirer/type@npm:1.5.3"
+"@inquirer/type@npm:^1.5.3, @inquirer/type@npm:^1.5.4":
+  version: 1.5.4
+  resolution: "@inquirer/type@npm:1.5.4"
   dependencies:
     mute-stream: ^1.0.0
-  checksum: 12ca8437b1c60fab52b84b27360a7715106bcab4514f7f1be017ccf50c5c027697828ccfaeccd083c71fcd59187b406fa31d414715e016a07c7dc439cb546fbc
+  checksum: dd531c57b0a8839b43785213ab62c12ac45db746f606bbfade20bbd2f99cb5e0f6c5e9b8e19cc871eac7aa2de2eb06ce6590eb09960e133a55597f281128657d
   languageName: node
   linkType: hard
 
@@ -731,12 +671,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^22.5.2":
-  version: 22.5.4
-  resolution: "@types/node@npm:22.5.4"
+"@types/node@npm:*, @types/node@npm:^22.5.5":
+  version: 22.5.5
+  resolution: "@types/node@npm:22.5.5"
   dependencies:
     undici-types: ~6.19.2
-  checksum: 77ac225c38c428200036780036da0bc6764e2721cfa8f528c7e7da7cfefe01a32a5791e28a54efbeedbc977949058d7db902b2e00139298225d4686cee4ae6db
+  checksum: 1f788966ff7df07add0af3481fb68c7fe5091cc72a265c671432abb443788ddacca4ca6378af64fe100c20f857c4d80170d358e66c070171fcea0d4adb1b45b1
   languageName: node
   linkType: hard
 
@@ -944,11 +884,11 @@ __metadata:
   linkType: hard
 
 "acorn-walk@npm:^8.1.1, acorn-walk@npm:^8.3.2":
-  version: 8.3.3
-  resolution: "acorn-walk@npm:8.3.3"
+  version: 8.3.4
+  resolution: "acorn-walk@npm:8.3.4"
   dependencies:
     acorn: ^8.11.0
-  checksum: 0f09d351fc30b69b2b9982bf33dc30f3d35a34e030e5f1ed3c49fc4e3814a192bf3101e4c30912a0595410f5e91bb70ddba011ea73398b3ecbfe41c7334c6dd0
+  checksum: 4ff03f42323e7cf90f1683e08606b0f460e1e6ac263d2730e3df91c7665b6f64e696db6ea27ee4bed18c2599569be61f28a8399fa170c611161a348c402ca19c
   languageName: node
   linkType: hard
 
@@ -1020,9 +960,9 @@ __metadata:
   linkType: hard
 
 "ansi-regex@npm:^6.0.1":
-  version: 6.0.1
-  resolution: "ansi-regex@npm:6.0.1"
-  checksum: 1ff8b7667cded1de4fa2c9ae283e979fc87036864317da86a2e546725f96406746411d0d85e87a2d12fa5abd715d90006de7fa4fa0477c92321ad3b4c7d4e169
+  version: 6.1.0
+  resolution: "ansi-regex@npm:6.1.0"
+  checksum: 495834a53b0856c02acd40446f7130cb0f8284f4a39afdab20d5dc42b2e198b1196119fe887beed8f9055c4ff2055e3b2f6d4641d0be018cdfb64fedf6fc1aac
   languageName: node
   linkType: hard
 
@@ -1376,7 +1316,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cli-spinners@npm:^2.5.0, cli-spinners@npm:^2.9.2":
+"cli-spinners@npm:^2.5.0":
   version: 2.9.2
   resolution: "cli-spinners@npm:2.9.2"
   checksum: 1bd588289b28432e4676cb5d40505cfe3e53f2e4e10fbe05c8a710a154d6fe0ce7836844b00d6858f740f2ffe67cdc36e0fce9c7b6a8430e80e6388d5aa4956c
@@ -2733,9 +2673,9 @@ __metadata:
   linkType: hard
 
 "is-unicode-supported@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "is-unicode-supported@npm:2.0.0"
-  checksum: 000b80639dedaf59a385f1c0a57f97a4d1435e0723716f24cc19ad94253a7a0a9f838bdc9ac49b10a29ac93b01f52ae9b2ed358a8876caf1eb74d73b4ede92b2
+  version: 2.1.0
+  resolution: "is-unicode-supported@npm:2.1.0"
+  checksum: f254e3da6b0ab1a57a94f7273a7798dd35d1d45b227759f600d0fa9d5649f9c07fa8d3c8a6360b0e376adf916d151ec24fc9a50c5295c58bae7ca54a76a063f9
   languageName: node
   linkType: hard
 
