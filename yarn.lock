@@ -379,9 +379,9 @@ __metadata:
   linkType: hard
 
 "@humanwhocodes/retry@npm:^0.4.0":
-  version: 0.4.0
-  resolution: "@humanwhocodes/retry@npm:0.4.0"
-  checksum: a1ea6ba7deff692f08770bea159eb53f280d6b56e6a340c238679752c3d2956797e31431a19a0e1cd303cfb130200024d3dc6bec36c7d98edd4789006d19dfd1
+  version: 0.4.1
+  resolution: "@humanwhocodes/retry@npm:0.4.1"
+  checksum: f11167c28e8266faba470fd273cbaafe2827523492bc18c5623015adb7ed66f46b2e542e3d756fed9ca614300249267814220c2f5f03a59e07fdfa64fc14ad52
   languageName: node
   linkType: hard
 
@@ -594,7 +594,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mapbox/node-pre-gyp@npm:^1.0.5":
+"@mapbox/node-pre-gyp@npm:^1.0.11":
   version: 1.0.11
   resolution: "@mapbox/node-pre-gyp@npm:1.0.11"
   dependencies:
@@ -708,16 +708,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
-  version: 22.8.7
-  resolution: "@types/node@npm:22.8.7"
-  dependencies:
-    undici-types: ~6.19.8
-  checksum: c7b200d06da97a4d4f46528ae962c028bb06b6ef9ab7f7949639420f3b3d236f041756ca1945dcaec0fcefbafd07b8ca47bbc1b47b77d33a4173211425641426
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:22.9.0":
+"@types/node@npm:*, @types/node@npm:22.9.0":
   version: 22.9.0
   resolution: "@types/node@npm:22.9.0"
   dependencies:
@@ -855,10 +846,10 @@ __metadata:
   linkType: hard
 
 "@vercel/nft@npm:^0.27.5":
-  version: 0.27.5
-  resolution: "@vercel/nft@npm:0.27.5"
+  version: 0.27.6
+  resolution: "@vercel/nft@npm:0.27.6"
   dependencies:
-    "@mapbox/node-pre-gyp": ^1.0.5
+    "@mapbox/node-pre-gyp": ^1.0.11
     "@rollup/pluginutils": ^4.0.0
     acorn: ^8.6.0
     acorn-import-attributes: ^1.9.5
@@ -872,7 +863,7 @@ __metadata:
     resolve-from: ^5.0.0
   bin:
     nft: out/cli.js
-  checksum: a43ee62f8e9e2b1089e7e7715b85af0a37cd21ca649074881aa8647f414e9a02889d86f48854235b68fde40ac698116ea9de235ced5e2b154d07f8b80488a469
+  checksum: 920687f78fdd9b176dbf3853873445b64e71a0958bcc01901fd633a24c578a6f047951461a03358af298e3b4201382359669a765a239468162aabd410bd85124
   languageName: node
   linkType: hard
 
@@ -1616,13 +1607,13 @@ __metadata:
   linkType: hard
 
 "cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
-  version: 7.0.3
-  resolution: "cross-spawn@npm:7.0.3"
+  version: 7.0.5
+  resolution: "cross-spawn@npm:7.0.5"
   dependencies:
     path-key: ^3.1.0
     shebang-command: ^2.0.0
     which: ^2.0.1
-  checksum: 671cc7c7288c3a8406f3c69a3ae2fc85555c04169e9d611def9a675635472614f1c0ed0ef80955d5b6d4e724f6ced67f0ad1bb006c2ea643488fcfef994d7f52
+  checksum: 55c50004cb6bbea3649784caac6e7b8ddd03fa8c1e14dbd5a1f15896708378006eb7526a52a0f48770c768c9b8aed48a5888eb8e785ff59ff7749e74f66cd96b
   languageName: node
   linkType: hard
 
