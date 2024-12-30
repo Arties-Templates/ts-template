@@ -1534,9 +1534,9 @@ __metadata:
   linkType: hard
 
 "consola@npm:^3.2.3":
-  version: 3.3.0
-  resolution: "consola@npm:3.3.0"
-  checksum: 47590c3ce73b5cb0ca514480df11aaaa8ed67f466381801727994b3eb86248c526257d8486a573b6dec43b5d2f8de6cfd44aa743e0e4c1299f2be734845fb966
+  version: 3.3.3
+  resolution: "consola@npm:3.3.3"
+  checksum: 1d3dae1710ea852a46c083c8e02bbe661051f4d98e8a1adfed3e809f8e9b12bb6327f2eaf11e71377eee0c4fbe2489d195a74c54ae51421a947c3531227bb44b
   languageName: node
   linkType: hard
 
@@ -2094,11 +2094,11 @@ __metadata:
   linkType: hard
 
 "fastq@npm:^1.6.0":
-  version: 1.17.1
-  resolution: "fastq@npm:1.17.1"
+  version: 1.18.0
+  resolution: "fastq@npm:1.18.0"
   dependencies:
     reusify: ^1.0.4
-  checksum: a8c5b26788d5a1763f88bae56a8ddeee579f935a831c5fe7a8268cea5b0a91fbfe705f612209e02d639b881d7b48e461a50da4a10cfaa40da5ca7cc9da098d88
+  checksum: fb8d94318c2e5545a1913c1647b35e8b7825caaba888a98ef9887085e57f5a82104aefbb05f26c81d4e220f02b2ea6f2c999132186d8c77e6c681d91870191ba
   languageName: node
   linkType: hard
 
@@ -4034,9 +4034,9 @@ __metadata:
   linkType: hard
 
 "tinyexec@npm:^0.3.0":
-  version: 0.3.1
-  resolution: "tinyexec@npm:0.3.1"
-  checksum: 691b531d464bdc09eeba934e43d8ac2a74c9d22a4bec9cd7f4991375c64e22712f7e5a95ba243a9369a478afd34d41171359012a2248ea49615cd2816ab12959
+  version: 0.3.2
+  resolution: "tinyexec@npm:0.3.2"
+  checksum: bd491923020610bdeadb0d8cf5d70e7cbad5a3201620fd01048c9bf3b31ffaa75c33254e1540e13b993ce4e8187852b0b5a93057bb598e7a57afa2ca2048a35c
   languageName: node
   linkType: hard
 
