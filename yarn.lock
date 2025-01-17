@@ -754,12 +754,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.10.6":
-  version: 22.10.6
-  resolution: "@types/node@npm:22.10.6"
+"@types/node@npm:22.10.7":
+  version: 22.10.7
+  resolution: "@types/node@npm:22.10.7"
   dependencies:
     undici-types: ~6.20.0
-  checksum: 3bf26c7df8b7f0085f7a53d1f4ee124f8af01c7e4c072c3c10ec0ba91a03611fce124fed279f512b1ff259835bee5589e02f1ba0914ca6b372a7f99aef5faa3c
+  checksum: 2dce6c75c607c6269744f1ea2b5296e8685cd71d0dd5c599c3029626f9d2dc8b037912495cf68b30d6f39f44d3fa8b025e179662ef16dc363e0658425bedfde8
   languageName: node
   linkType: hard
 
@@ -2889,9 +2889,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:15.3.0":
-  version: 15.3.0
-  resolution: "lint-staged@npm:15.3.0"
+"lint-staged@npm:15.4.1":
+  version: 15.4.1
+  resolution: "lint-staged@npm:15.4.1"
   dependencies:
     chalk: ~5.4.1
     commander: ~12.1.0
@@ -2905,7 +2905,7 @@ __metadata:
     yaml: ~2.6.1
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 9917a13c946cd812e4986a724602dfacf09baa4ddbbb4f08f7e59760181a7bf38459fcef54a396cc80b2af1655edae3e45410b23cfe1f70cf431662b2bf45624
+  checksum: 6c17747e9379a08ad3d15aab869a362c750d357182c76ca88121f01143910a2a2d5b1673536f3ba9db2331bf2102ffee115532736dd9c3fa2696344732a47d3d
   languageName: node
   linkType: hard
 
@@ -4009,13 +4009,13 @@ __metadata:
     "@commitlint/cli": 19.6.1
     "@commitlint/config-conventional": 19.6.0
     "@commitlint/cz-commitlint": 19.6.1
-    "@types/node": 22.10.6
+    "@types/node": 22.10.7
     ava: 6.2.0
     commitizen: 4.3.1
     eslint: 9.18.0
     husky: 9.1.7
     inquirer: 12.3.2
-    lint-staged: 15.3.0
+    lint-staged: 15.4.1
     pinst: 3.0.0
     ts-node: 10.9.2
     typescript: 4.9.5
