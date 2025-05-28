@@ -792,12 +792,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:22.15.21":
+"@types/node@npm:*":
   version: 22.15.21
   resolution: "@types/node@npm:22.15.21"
   dependencies:
     undici-types: ~6.21.0
   checksum: 989f1ce3a99916a7298ae885210385fbcb339b07f8ef420b015d69dd68863aca68aeae07833736b300720d9394b8e1875600ce74166c24957d9907d29de0b788
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:22.15.23":
+  version: 22.15.23
+  resolution: "@types/node@npm:22.15.23"
+  dependencies:
+    undici-types: ~6.21.0
+  checksum: 24d204beedcf96d5c9068da2553e01b8e90edecab8498055d1abc24d454211a7757fa858fabebbe0aec86988012c33d0025e31bab63ab2c6307807c84931930e
   languageName: node
   linkType: hard
 
@@ -1508,10 +1517,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^13.1.0":
-  version: 13.1.0
-  resolution: "commander@npm:13.1.0"
-  checksum: 8ca2fcb33caf2aa06fba3722d7a9440921331d54019dabf906f3603313e7bf334b009b862257b44083ff65d5a3ab19e83ad73af282bd5319f01dc228bdf87ef0
+"commander@npm:^14.0.0":
+  version: 14.0.0
+  resolution: "commander@npm:14.0.0"
+  checksum: 6e9bdaf2e8e4f512855ffc10579eeae2e84c4a7697a91b1a5f62aab3c9849182207855268dd7c3952ae7a2334312a7138f58e929e4b428aef5bf8af862685c9b
   languageName: node
   linkType: hard
 
@@ -1725,7 +1734,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:^4.3.1, debug@npm:^4.3.2, debug@npm:^4.3.4, debug@npm:^4.4.0":
+"debug@npm:4, debug@npm:^4.3.1, debug@npm:^4.3.2, debug@npm:^4.3.4, debug@npm:^4.4.0, debug@npm:^4.4.1":
   version: 4.4.1
   resolution: "debug@npm:4.4.1"
   dependencies:
@@ -2938,23 +2947,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:16.0.0":
-  version: 16.0.0
-  resolution: "lint-staged@npm:16.0.0"
+"lint-staged@npm:16.1.0":
+  version: 16.1.0
+  resolution: "lint-staged@npm:16.1.0"
   dependencies:
     chalk: ^5.4.1
-    commander: ^13.1.0
-    debug: ^4.4.0
+    commander: ^14.0.0
+    debug: ^4.4.1
     lilconfig: ^3.1.3
     listr2: ^8.3.3
     micromatch: ^4.0.8
-    nano-spawn: ^1.0.0
+    nano-spawn: ^1.0.2
     pidtree: ^0.6.0
     string-argv: ^0.3.2
-    yaml: ^2.7.1
+    yaml: ^2.8.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: f57d710dac15179c013a6df457286cb60c4c6094a20f23aa0e3021acf8d9e612469131f415ea1a3f5a25cad5875a2e540eab068f788344d6b33c127a4457b02d
+  checksum: e882bfee0f0ddaf4af4d58925af2591ac994a805242fc73205aa950201c3d094de82927d12d766f9d1173917b2e5e71c3ce20b69a0a8d214b22a2264bab5355f
   languageName: node
   linkType: hard
 
@@ -3282,7 +3291,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nano-spawn@npm:^1.0.0":
+"nano-spawn@npm:^1.0.2":
   version: 1.0.2
   resolution: "nano-spawn@npm:1.0.2"
   checksum: 195eb751f5f32bebb622c57e3fdb2ebac8b9ffea301c94412a0fb0d3c0035854884e505a0518ff2dd50faf12d005843a0409b1316dd3746e3c5e696a77ccff16
@@ -4053,13 +4062,13 @@ __metadata:
     "@commitlint/cli": 19.8.1
     "@commitlint/config-conventional": 19.8.1
     "@commitlint/cz-commitlint": 19.8.1
-    "@types/node": 22.15.21
+    "@types/node": 22.15.23
     ava: 6.3.0
     commitizen: 4.3.1
     eslint: 9.27.0
     husky: 9.1.7
     inquirer: 12.6.3
-    lint-staged: 16.0.0
+    lint-staged: 16.1.0
     pinst: 3.0.0
     ts-node: 10.9.2
     typescript: 4.9.5
@@ -4413,7 +4422,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml@npm:^2.7.1":
+"yaml@npm:^2.8.0":
   version: 2.8.0
   resolution: "yaml@npm:2.8.0"
   bin:
