@@ -792,16 +792,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
-  version: 22.15.21
-  resolution: "@types/node@npm:22.15.21"
-  dependencies:
-    undici-types: ~6.21.0
-  checksum: 989f1ce3a99916a7298ae885210385fbcb339b07f8ef420b015d69dd68863aca68aeae07833736b300720d9394b8e1875600ce74166c24957d9907d29de0b788
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:22.15.29":
+"@types/node@npm:*, @types/node@npm:22.15.29":
   version: 22.15.29
   resolution: "@types/node@npm:22.15.29"
   dependencies:
@@ -939,8 +930,8 @@ __metadata:
   linkType: hard
 
 "@vercel/nft@npm:^0.29.2":
-  version: 0.29.3
-  resolution: "@vercel/nft@npm:0.29.3"
+  version: 0.29.4
+  resolution: "@vercel/nft@npm:0.29.4"
   dependencies:
     "@mapbox/node-pre-gyp": ^2.0.0
     "@rollup/pluginutils": ^5.1.3
@@ -956,7 +947,7 @@ __metadata:
     resolve-from: ^5.0.0
   bin:
     nft: out/cli.js
-  checksum: 201575f63a3ad92b501670447ebf16f472b8dcf9fcd44c3265db59bb77d4288570a37d5d9873cbe368bc03d2214b82a2d082c901921a5345e5997ad00d2155b6
+  checksum: 05446c7d372d6cb2e0d58a32492160e180f099b5991c2315d8189439ab3734cfef6bfdb9d9e3829d0821875715814b678a8e499e19ca5411312293a229c2cac9
   languageName: node
   linkType: hard
 
@@ -2550,9 +2541,9 @@ __metadata:
   linkType: hard
 
 "ignore@npm:^7.0.3":
-  version: 7.0.4
-  resolution: "ignore@npm:7.0.4"
-  checksum: 09b4d69192355ac066f7d99c0fdb26f52035d2eaae423bfb5f7389091d75a93bf9c105e1fbf51f557098f6d446726f29a63cef3a7d26722dc696dd345224719b
+  version: 7.0.5
+  resolution: "ignore@npm:7.0.5"
+  checksum: d0862bf64d3d58bf34d5fb0a9f725bec9ca5ce8cd1aecc8f28034269e8f69b8009ffd79ca3eda96962a6a444687781cd5efdb8c7c8ddc0a6996e36d31c217f14
   languageName: node
   linkType: hard
 
