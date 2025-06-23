@@ -728,8 +728,8 @@ __metadata:
   linkType: hard
 
 "@rollup/pluginutils@npm:^5.1.3":
-  version: 5.1.4
-  resolution: "@rollup/pluginutils@npm:5.1.4"
+  version: 5.2.0
+  resolution: "@rollup/pluginutils@npm:5.2.0"
   dependencies:
     "@types/estree": ^1.0.0
     estree-walker: ^2.0.2
@@ -739,7 +739,7 @@ __metadata:
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: dc0294580effbf68965ed7939c9e469b8c8847b59842e4691fd10d0a8d0b178600bd912694c409ae33600c9059efce72e96f25917cff983afd57f092a7aeb8d2
+  checksum: d34a7215cddbc11fff7663f8ca05e8e04b48af4c4b19f5545902bef07e508c029cd254d6c5ae66d2e3309d459d44f326f1adaa6b6a4dae3c27bd26a3baef70a4
   languageName: node
   linkType: hard
 
@@ -816,11 +816,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 24.0.1
-  resolution: "@types/node@npm:24.0.1"
+  version: 24.0.3
+  resolution: "@types/node@npm:24.0.3"
   dependencies:
     undici-types: ~7.8.0
-  checksum: 8ef7aeddb2583657513d570b743f5226e19196a779e36bacad0c4079814ebe8fe7c0e580e897e4c7ce43dd98e177bfd9cbe9ef1696f76640c4322d65678b5c8c
+  checksum: 84ab3ee3b752ea06efa1d3da8391d47ebac4551559c8fb5e48fc06fc6f79971540dcee0ee9864b4b399c213d2c93873e14cda7b0b251c95440863c6d777d8f74
   languageName: node
   linkType: hard
 
@@ -1846,9 +1846,9 @@ __metadata:
   linkType: hard
 
 "emittery@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "emittery@npm:1.1.0"
-  checksum: 299a14f656ae3fe244fae2a8755f11ddeb9b098885c1c4ad9480bed70f4e89b785dc62edbb73cfc238892bdc1ac7ad42ace16c06dc1b82ec3283b6d9167bcbd3
+  version: 1.2.0
+  resolution: "emittery@npm:1.2.0"
+  checksum: 9c0286a450cbdbda18dcdadb3bab0252fb8671467f42bea0767d114ccb880fd7a265cd16fc8c269d0d53aba3e40f920eb09658d15a197796be254464bbccd912
   languageName: node
   linkType: hard
 
