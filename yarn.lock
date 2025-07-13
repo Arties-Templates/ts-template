@@ -1076,7 +1076,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:^8.11.0, acorn@npm:^8.14.1, acorn@npm:^8.15.0, acorn@npm:^8.4.1, acorn@npm:^8.6.0":
+"acorn@npm:^8.11.0, acorn@npm:^8.15.0, acorn@npm:^8.4.1, acorn@npm:^8.6.0":
   version: 8.15.0
   resolution: "acorn@npm:8.15.0"
   bin:
@@ -1245,21 +1245,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ava@npm:6.4.0":
-  version: 6.4.0
-  resolution: "ava@npm:6.4.0"
+"ava@npm:6.4.1":
+  version: 6.4.1
+  resolution: "ava@npm:6.4.1"
   dependencies:
     "@vercel/nft": ^0.29.4
-    acorn: ^8.14.1
+    acorn: ^8.15.0
     acorn-walk: ^8.3.4
     ansi-styles: ^6.2.1
     arrgv: ^1.0.2
     arrify: ^3.0.0
     callsites: ^4.2.0
-    cbor: ^10.0.3
+    cbor: ^10.0.9
     chalk: ^5.4.1
     chunkd: ^2.0.1
-    ci-info: ^4.2.0
+    ci-info: ^4.3.0
     ci-parallel-vars: ^1.0.1
     cli-truncate: ^4.0.0
     code-excerpt: ^4.0.0
@@ -1267,7 +1267,7 @@ __metadata:
     concordance: ^5.0.4
     currently-unhandled: ^0.4.1
     debug: ^4.4.1
-    emittery: ^1.1.0
+    emittery: ^1.2.0
     figures: ^6.1.0
     globby: ^14.1.0
     ignore-by-default: ^2.1.0
@@ -1296,7 +1296,7 @@ __metadata:
       optional: true
   bin:
     ava: entrypoints/cli.mjs
-  checksum: 620f357772108c1606467c32f675a7fa767cf402a59160187c5170f49e5cc4388012870ca9723fdf912dc4333512a2f9f91e407ed48fda72c97f51911fab84f6
+  checksum: 5c2ed6f745c22e94c3d3592df7cf1979570b319ed345b0be41c914ae79930a4da5e3284d321ba5e9aadf05cf4d3d9b941bef416f0a9eeca48efa250b8b0df9ef
   languageName: node
   linkType: hard
 
@@ -1400,7 +1400,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cbor@npm:^10.0.3":
+"cbor@npm:^10.0.9":
   version: 10.0.9
   resolution: "cbor@npm:10.0.9"
   dependencies:
@@ -1458,7 +1458,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ci-info@npm:^4.2.0":
+"ci-info@npm:^4.3.0":
   version: 4.3.0
   resolution: "ci-info@npm:4.3.0"
   checksum: 77a851ec826e1fbcd993e0e3ef402e6a5e499c733c475af056b7808dea9c9ede53e560ed433020489a8efea2d824fd68ca203446c9988a0bac8475210b0d4491
@@ -1892,7 +1892,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emittery@npm:^1.1.0":
+"emittery@npm:^1.2.0":
   version: 1.2.0
   resolution: "emittery@npm:1.2.0"
   checksum: 9c0286a450cbdbda18dcdadb3bab0252fb8671467f42bea0767d114ccb880fd7a265cd16fc8c269d0d53aba3e40f920eb09658d15a197796be254464bbccd912
@@ -4172,7 +4172,7 @@ __metadata:
     "@commitlint/config-conventional": 19.8.1
     "@commitlint/cz-commitlint": 19.8.1
     "@types/node": 22.16.3
-    ava: 6.4.0
+    ava: 6.4.1
     commitizen: 4.3.1
     eslint: 9.31.0
     husky: 9.1.7
