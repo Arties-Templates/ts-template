@@ -534,9 +534,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/prompts@npm:^7.7.0":
-  version: 7.7.0
-  resolution: "@inquirer/prompts@npm:7.7.0"
+"@inquirer/prompts@npm:^7.7.1":
+  version: 7.7.1
+  resolution: "@inquirer/prompts@npm:7.7.1"
   dependencies:
     "@inquirer/checkbox": ^4.2.0
     "@inquirer/confirm": ^5.1.14
@@ -547,13 +547,13 @@ __metadata:
     "@inquirer/password": ^4.0.17
     "@inquirer/rawlist": ^4.1.5
     "@inquirer/search": ^3.0.17
-    "@inquirer/select": ^4.3.0
+    "@inquirer/select": ^4.3.1
   peerDependencies:
     "@types/node": ">=18"
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: 004cd7727391e11eb2452e31b704631f0db6f251bd1409d9e89e66cb20addf0aaa84f9e2efc2b8dc160477404d1687ec3830670c3af5099587932b7935a9b341
+  checksum: 13ee9db038c874e40612728ffacd8f30ff6cfe502cd3914ec8cfe90c8655102ff6eda9d90c17d21761f216fb3fd141ce4c15640ae70605bcdaa8a6538f06b8bd
   languageName: node
   linkType: hard
 
@@ -590,9 +590,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/select@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "@inquirer/select@npm:4.3.0"
+"@inquirer/select@npm:^4.3.1":
+  version: 4.3.1
+  resolution: "@inquirer/select@npm:4.3.1"
   dependencies:
     "@inquirer/core": ^10.1.15
     "@inquirer/figures": ^1.0.13
@@ -604,7 +604,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: 9a48ce373eb5868b3e9ebeaf074069caa7875b36a8234f259630eecdb71e604b99362d9076b96030df06d96f55ccfef7d6afe444792f2d19b3e69eccc07104ec
+  checksum: ad358581cde0597b603a9aeb8d6b320f3632f36218c3f4b7e9657152d7a20d3cded854b625c84e414de62e9865e703bb30476a542613e5ee3762b14716cfe63e
   languageName: node
   linkType: hard
 
@@ -708,62 +708,6 @@ __metadata:
     "@nodelib/fs.scandir": 2.1.5
     fastq: ^1.6.0
   checksum: 190c643f156d8f8f277bf2a6078af1ffde1fd43f498f187c2db24d35b4b4b5785c02c7dc52e356497b9a1b65b13edc996de08de0b961c32844364da02986dc53
-  languageName: node
-  linkType: hard
-
-"@oxlint/darwin-arm64@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@oxlint/darwin-arm64@npm:1.7.0"
-  conditions: os=darwin & cpu=arm64
-  languageName: node
-  linkType: hard
-
-"@oxlint/darwin-x64@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@oxlint/darwin-x64@npm:1.7.0"
-  conditions: os=darwin & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@oxlint/linux-arm64-gnu@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@oxlint/linux-arm64-gnu@npm:1.7.0"
-  conditions: os=linux & cpu=arm64 & libc=glibc
-  languageName: node
-  linkType: hard
-
-"@oxlint/linux-arm64-musl@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@oxlint/linux-arm64-musl@npm:1.7.0"
-  conditions: os=linux & cpu=arm64 & libc=musl
-  languageName: node
-  linkType: hard
-
-"@oxlint/linux-x64-gnu@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@oxlint/linux-x64-gnu@npm:1.7.0"
-  conditions: os=linux & cpu=x64 & libc=glibc
-  languageName: node
-  linkType: hard
-
-"@oxlint/linux-x64-musl@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@oxlint/linux-x64-musl@npm:1.7.0"
-  conditions: os=linux & cpu=x64 & libc=musl
-  languageName: node
-  linkType: hard
-
-"@oxlint/win32-arm64@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@oxlint/win32-arm64@npm:1.7.0"
-  conditions: os=win32 & cpu=arm64
-  languageName: node
-  linkType: hard
-
-"@oxlint/win32-x64@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@oxlint/win32-x64@npm:1.7.0"
-  conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
@@ -2694,23 +2638,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inquirer@npm:12.8.0":
-  version: 12.8.0
-  resolution: "inquirer@npm:12.8.0"
+"inquirer@npm:12.8.2":
+  version: 12.8.2
+  resolution: "inquirer@npm:12.8.2"
   dependencies:
     "@inquirer/core": ^10.1.15
-    "@inquirer/prompts": ^7.7.0
+    "@inquirer/prompts": ^7.7.1
     "@inquirer/type": ^3.0.8
     ansi-escapes: ^4.3.2
     mute-stream: ^2.0.0
-    run-async: ^4.0.4
+    run-async: ^4.0.5
     rxjs: ^7.8.2
   peerDependencies:
     "@types/node": ">=18"
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: 432d2558b8ce209ffaea47a6b037f1ce9065a0cb017394e48f57e45e0cb85d6bfc6450287992730d6c9cd7e246a7b09b63f48a96af20ece57d2519c9a587c8a3
+  checksum: 77e1ea7d684decc7b8454f44368b0165841d3bc86cac2cbb56653bb42be8b6baba98eca98f7c6494fbfc2bfd829bbedcf6e3590ee72311334c8c35e8ac124cef
   languageName: node
   linkType: hard
 
@@ -3499,42 +3443,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"oxlint@npm:^1.2.0":
-  version: 1.7.0
-  resolution: "oxlint@npm:1.7.0"
-  dependencies:
-    "@oxlint/darwin-arm64": 1.7.0
-    "@oxlint/darwin-x64": 1.7.0
-    "@oxlint/linux-arm64-gnu": 1.7.0
-    "@oxlint/linux-arm64-musl": 1.7.0
-    "@oxlint/linux-x64-gnu": 1.7.0
-    "@oxlint/linux-x64-musl": 1.7.0
-    "@oxlint/win32-arm64": 1.7.0
-    "@oxlint/win32-x64": 1.7.0
-  dependenciesMeta:
-    "@oxlint/darwin-arm64":
-      optional: true
-    "@oxlint/darwin-x64":
-      optional: true
-    "@oxlint/linux-arm64-gnu":
-      optional: true
-    "@oxlint/linux-arm64-musl":
-      optional: true
-    "@oxlint/linux-x64-gnu":
-      optional: true
-    "@oxlint/linux-x64-musl":
-      optional: true
-    "@oxlint/win32-arm64":
-      optional: true
-    "@oxlint/win32-x64":
-      optional: true
-  bin:
-    oxc_language_server: bin/oxc_language_server
-    oxlint: bin/oxlint
-  checksum: a309767df6b93e4580e7cf44b15bb5e2f3da6efdb0d22a0ee50cde60a6de4b7ee8bb8a84cc28594284cf2c44e8e0d51d15fde7e7afea138136ab1edfa575b01e
-  languageName: node
-  linkType: hard
-
 "p-limit@npm:^3.0.2":
   version: 3.1.0
   resolution: "p-limit@npm:3.1.0"
@@ -3744,15 +3652,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.5.3":
-  version: 3.6.2
-  resolution: "prettier@npm:3.6.2"
-  bin:
-    prettier: bin/prettier.cjs
-  checksum: 0206f5f437892e8858f298af8850bf9d0ef1c22e21107a213ba56bfb9c2387a2020bfda244a20161d8e3dad40c6b04101609a55d370dece53d0a31893b64f861
-  languageName: node
-  linkType: hard
-
 "pretty-ms@npm:^9.2.0":
   version: 9.2.0
   resolution: "pretty-ms@npm:9.2.0"
@@ -3875,13 +3774,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"run-async@npm:^4.0.4":
-  version: 4.0.4
-  resolution: "run-async@npm:4.0.4"
-  dependencies:
-    oxlint: ^1.2.0
-    prettier: ^3.5.3
-  checksum: 88640c6865c6eb8c697909ab9938680e804e4ec16a23d37f6c537fd81a92e6816685fc76a6ccdfe4c0a32254d033b43e0dcd33f1c602431f975d95a07118071f
+"run-async@npm:^4.0.5":
+  version: 4.0.5
+  resolution: "run-async@npm:4.0.5"
+  checksum: 5e7b4ce7ee4fb7a88a6dbbfd14a1f683c971e834822f622617a113daac844065019a0445607699e5fc8e4e217a7691ae206722e8511ac6651886cf4ae756f345
   languageName: node
   linkType: hard
 
@@ -4176,7 +4072,7 @@ __metadata:
     commitizen: 4.3.1
     eslint: 9.31.0
     husky: 9.1.7
-    inquirer: 12.8.0
+    inquirer: 12.8.2
     lint-staged: 16.1.2
     pinst: 3.0.0
     ts-node: 10.9.2
