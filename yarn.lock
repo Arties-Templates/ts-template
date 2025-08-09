@@ -300,19 +300,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/config-helpers@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@eslint/config-helpers@npm:0.3.0"
-  checksum: d4fe8242ef580806ddaa88309f4bb2d3e6be5524cc6d6197675106c6d048f766a3f9cdc2e8e33bbc97a123065792cac8314fc85ac2b3cf72610e8df59301d63a
+"@eslint/config-helpers@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "@eslint/config-helpers@npm:0.3.1"
+  checksum: b95c239264078a430761afb344402d517134289a7d8b69a6ff1378ebe5eec9da6ad22b5e6d193b9e02899aeda30817ac47178d5927247092cc6d73a52f8d07c9
   languageName: node
   linkType: hard
 
-"@eslint/core@npm:^0.15.0, @eslint/core@npm:^0.15.1":
-  version: 0.15.1
-  resolution: "@eslint/core@npm:0.15.1"
+"@eslint/core@npm:^0.15.2":
+  version: 0.15.2
+  resolution: "@eslint/core@npm:0.15.2"
   dependencies:
     "@types/json-schema": ^7.0.15
-  checksum: 9215f00466d60764453466604443a491b0ea8263c148836fef723354d6ef1d550991e931d3df2780c99cee2cab14c4f41f97d5341ab12a8443236c961bb6f664
+  checksum: 535fc4e657760851826ceae325a72dde664b99189bd975715de3526db655c66d7a35b72dbb1c7641ab9201ed4e2130f79c5be51f96c820b5407c3766dcf94f23
   languageName: node
   linkType: hard
 
@@ -333,10 +333,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.32.0":
-  version: 9.32.0
-  resolution: "@eslint/js@npm:9.32.0"
-  checksum: 2b55854d8057828179eb245542c35d6a34e74806ca5401813cb9ed424c9fa1530b2f9dd4ac0fb6158c2c3540539683811b8817768548b28747d2325bec23f099
+"@eslint/js@npm:9.33.0":
+  version: 9.33.0
+  resolution: "@eslint/js@npm:9.33.0"
+  checksum: b3cd3cd42884059850d73caadf5c28cd3256bd80cf7d85b91b12ba3a7e7711593f3b6594dbd6a9b6212b8d5da6e89dd6c18e1720c15e4468def5e1a9e36cb4fa
   languageName: node
   linkType: hard
 
@@ -347,13 +347,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/plugin-kit@npm:^0.3.4":
-  version: 0.3.4
-  resolution: "@eslint/plugin-kit@npm:0.3.4"
+"@eslint/plugin-kit@npm:^0.3.5":
+  version: 0.3.5
+  resolution: "@eslint/plugin-kit@npm:0.3.5"
   dependencies:
-    "@eslint/core": ^0.15.1
+    "@eslint/core": ^0.15.2
     levn: ^0.4.1
-  checksum: 9dd448926e90c9ae0eb4332c5a2e1b80733ceeecb4d487bb131ca26404ad5af706b262e3c76a5b81f7980c0dfc975c5b9e4ef715676e0e4c48e66f0d7bac83b2
+  checksum: 1808d7e2538335b8e4536ef372840e93468ecc6f4a5bf72ad665795290b6a8a72f51ef4ffd8bcfc601b133a5d5f67b59ab256d945f8c825c5c307aad29efaf86
   languageName: node
   linkType: hard
 
@@ -449,19 +449,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/editor@npm:^4.2.15":
-  version: 4.2.15
-  resolution: "@inquirer/editor@npm:4.2.15"
+"@inquirer/editor@npm:^4.2.16":
+  version: 4.2.16
+  resolution: "@inquirer/editor@npm:4.2.16"
   dependencies:
     "@inquirer/core": ^10.1.15
+    "@inquirer/external-editor": ^1.0.0
     "@inquirer/type": ^3.0.8
-    external-editor: ^3.1.0
   peerDependencies:
     "@types/node": ">=18"
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: a4352a3a82de27dbcd0f4e0e6889f9bd077e28dfd8d1d7001c8c4bb328c8c9cbd80c3075a0b1f73fd6f5924883a6cba5f7100d600afa9a9482fc2da6d6f55694
+  checksum: 80b9b3b7577636846537e6b457a9b0e91367f1942e3603474d70838e3a572e2207953c6312899aab9f180e9f340f9ef849f66d00bedbbff7c6072fafcf3c17b0
   languageName: node
   linkType: hard
 
@@ -478,6 +478,18 @@ __metadata:
     "@types/node":
       optional: true
   checksum: 05a4e1f7b809e121da0f82b31749549b3d6fafd4eed6355f88b9f2636220d0878c2714e192cf848bf9d6085be299475f30f4e020c58d2cfd9b5027e6d21ca1cd
+  languageName: node
+  linkType: hard
+
+"@inquirer/external-editor@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@inquirer/external-editor@npm:1.0.0"
+  dependencies:
+    chardet: ^2.1.0
+    iconv-lite: ^0.6.3
+  peerDependencies:
+    "@types/node": ">=18"
+  checksum: d441a3e4370adc4edabec8c9d4495ac3794cc5a9d0065744f19705568c793aad3f977fe1adbfa768e0caa88650a670dfe7901501935a84d8ff8753015ecb2419
   languageName: node
   linkType: hard
 
@@ -534,13 +546,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/prompts@npm:^7.8.0":
-  version: 7.8.0
-  resolution: "@inquirer/prompts@npm:7.8.0"
+"@inquirer/prompts@npm:^7.8.1":
+  version: 7.8.1
+  resolution: "@inquirer/prompts@npm:7.8.1"
   dependencies:
     "@inquirer/checkbox": ^4.2.0
     "@inquirer/confirm": ^5.1.14
-    "@inquirer/editor": ^4.2.15
+    "@inquirer/editor": ^4.2.16
     "@inquirer/expand": ^4.0.17
     "@inquirer/input": ^4.2.1
     "@inquirer/number": ^3.0.17
@@ -553,7 +565,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: 173020ff7dce363ca060360b5ffe8d254a32bcd9757659ea24c5e3f607b91dbea7f7c98ecf2e7b558c016a700f20deee12c6e294c053cd57c19c904bf0c9963d
+  checksum: c7291ddbb842d352ec610b2412e7740a383687f3a3bbc0f064e870c4a943089cc18382c1ec15b672dca7c697d154f7765d3a1844ae84a1d2fee322752d49cd66
   languageName: node
   linkType: hard
 
@@ -815,12 +827,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.17.0":
-  version: 22.17.0
-  resolution: "@types/node@npm:22.17.0"
+"@types/node@npm:22.17.1":
+  version: 22.17.1
+  resolution: "@types/node@npm:22.17.1"
   dependencies:
     undici-types: ~6.21.0
-  checksum: a7e4dd638e319fabdd9b24f4d46313b16a771c13658b7e07040a47d856bab68cd1d67ac1d027eb3757c2c6534fdd61c74981e4e59322f95f8cbebf77f3f1db17
+  checksum: 5cbf016267f5deadf3d279836a8294a8b9a294d78d912788c98ea35ab92ef2e923d4b0e7b85e83a4391a9d6cb64d616bd9cf62b3edd85be1a04c4f88425b072b
   languageName: node
   linkType: hard
 
@@ -1374,7 +1386,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^5.3.0, chalk@npm:^5.4.1":
+"chalk@npm:^5.3.0, chalk@npm:^5.4.1, chalk@npm:^5.5.0":
   version: 5.5.0
   resolution: "chalk@npm:5.5.0"
   checksum: 00788e9f072477be4fbefa13c46ab0a078be4bdf598b807cc62ea89f7850902b020bbcafabd7855e3d8ef0ff409ec761e5094c93404cca7fb63c372525d2b4a4
@@ -1385,6 +1397,13 @@ __metadata:
   version: 0.7.0
   resolution: "chardet@npm:0.7.0"
   checksum: 6fd5da1f5d18ff5712c1e0aed41da200d7c51c28f11b36ee3c7b483f3696dabc08927fc6b227735eb8f0e1215c9a8abd8154637f3eff8cada5959df7f58b024d
+  languageName: node
+  linkType: hard
+
+"chardet@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "chardet@npm:2.1.0"
+  checksum: 491f8ea54ed3693598c98cb8785531b94b71e59b04ef8dd2b6fea4947f785297fb5c2ae1109adca6fdd453a8a7181cfc4a85c07dbbe96a156d0908f4188a6b9a
   languageName: node
   linkType: hard
 
@@ -1956,18 +1975,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:9.32.0":
-  version: 9.32.0
-  resolution: "eslint@npm:9.32.0"
+"eslint@npm:9.33.0":
+  version: 9.33.0
+  resolution: "eslint@npm:9.33.0"
   dependencies:
     "@eslint-community/eslint-utils": ^4.2.0
     "@eslint-community/regexpp": ^4.12.1
     "@eslint/config-array": ^0.21.0
-    "@eslint/config-helpers": ^0.3.0
-    "@eslint/core": ^0.15.0
+    "@eslint/config-helpers": ^0.3.1
+    "@eslint/core": ^0.15.2
     "@eslint/eslintrc": ^3.3.1
-    "@eslint/js": 9.32.0
-    "@eslint/plugin-kit": ^0.3.4
+    "@eslint/js": 9.33.0
+    "@eslint/plugin-kit": ^0.3.5
     "@humanfs/node": ^0.16.6
     "@humanwhocodes/module-importer": ^1.0.1
     "@humanwhocodes/retry": ^0.4.2
@@ -2002,7 +2021,7 @@ __metadata:
       optional: true
   bin:
     eslint: bin/eslint.js
-  checksum: 66b7d6cb1dec65e343b7a79238615fd446f5eed250f96b5896737dcdf3675f86a9529ddabe183d9c330ee8f70a04cbd3dde5dc57aac6e2530f18dff8b770c7ee
+  checksum: 1d383c3f294b8f0cedb20d06139b26fb22b80365f093f9ee8d24bc7e4377f6d9ad52478917e9d583f2cccf16cca85eee1624a9dcc7d3bdc0a5fa2b62c044882b
   languageName: node
   linkType: hard
 
@@ -2109,7 +2128,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"external-editor@npm:^3.0.3, external-editor@npm:^3.1.0":
+"external-editor@npm:^3.0.3":
   version: 3.1.0
   resolution: "external-editor@npm:3.1.0"
   dependencies:
@@ -2548,6 +2567,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"iconv-lite@npm:^0.6.3":
+  version: 0.6.3
+  resolution: "iconv-lite@npm:0.6.3"
+  dependencies:
+    safer-buffer: ">= 2.1.2 < 3.0.0"
+  checksum: 3f60d47a5c8fc3313317edfd29a00a692cc87a19cac0159e2ce711d0ebc9019064108323b5e493625e25594f11c6236647d8e256fbe7a58f4a3b33b89e6d30bf
+  languageName: node
+  linkType: hard
+
 "ieee754@npm:^1.1.13":
   version: 1.2.1
   resolution: "ieee754@npm:1.2.1"
@@ -2638,12 +2666,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inquirer@npm:12.9.0":
-  version: 12.9.0
-  resolution: "inquirer@npm:12.9.0"
+"inquirer@npm:12.9.1":
+  version: 12.9.1
+  resolution: "inquirer@npm:12.9.1"
   dependencies:
     "@inquirer/core": ^10.1.15
-    "@inquirer/prompts": ^7.8.0
+    "@inquirer/prompts": ^7.8.1
     "@inquirer/type": ^3.0.8
     ansi-escapes: ^4.3.2
     mute-stream: ^2.0.0
@@ -2654,7 +2682,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: 8d8333dd2a19fbef48464889de2cb161580ac6a70f4bb27a7c97c98fe7576ca5b67df2bc9401bb5fc761c4e97f857140081cc2f520ed74f61ed70b29f94cf860
+  checksum: 035b80df0bb846318dfb6c34dc2cc86cc9432a6ae1840e49000ed849406055aa9b23b828ead35bf693a2e23c04015780b662e9e3dc3a5f737d2f22fb435150bc
   languageName: node
   linkType: hard
 
@@ -2974,11 +3002,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:16.1.4":
-  version: 16.1.4
-  resolution: "lint-staged@npm:16.1.4"
+"lint-staged@npm:16.1.5":
+  version: 16.1.5
+  resolution: "lint-staged@npm:16.1.5"
   dependencies:
-    chalk: ^5.4.1
+    chalk: ^5.5.0
     commander: ^14.0.0
     debug: ^4.4.1
     lilconfig: ^3.1.3
@@ -2987,10 +3015,10 @@ __metadata:
     nano-spawn: ^1.0.2
     pidtree: ^0.6.0
     string-argv: ^0.3.2
-    yaml: ^2.8.0
+    yaml: ^2.8.1
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: f6b63bfec697cc06ea4e0cc3aad4519f15935b7064633ef3f46b8efc7271526bd3bc9bc9f008cc38f1dd4976f2f90a6697fefc401e5bce3ded7a32b8aea2761c
+  checksum: 992d13bc29491227b4bdb7a1b28edbb5367f6dcec54258a28460662531bf19a701e386b56325c4c7f6f0809a4d1fd81f5a61d34df05a4caad6f5f41dce56456c
   languageName: node
   linkType: hard
 
@@ -3806,7 +3834,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"safer-buffer@npm:>= 2.1.2 < 3":
+"safer-buffer@npm:>= 2.1.2 < 3, safer-buffer@npm:>= 2.1.2 < 3.0.0":
   version: 2.1.2
   resolution: "safer-buffer@npm:2.1.2"
   checksum: cab8f25ae6f1434abee8d80023d7e72b598cf1327164ddab31003c51215526801e40b66c5e65d658a0af1e9d6478cadcb4c745f4bd6751f97d8644786c0978b0
@@ -4067,13 +4095,13 @@ __metadata:
     "@commitlint/cli": 19.8.1
     "@commitlint/config-conventional": 19.8.1
     "@commitlint/cz-commitlint": 19.8.1
-    "@types/node": 22.17.0
+    "@types/node": 22.17.1
     ava: 6.4.1
     commitizen: 4.3.1
-    eslint: 9.32.0
+    eslint: 9.33.0
     husky: 9.1.7
-    inquirer: 12.9.0
-    lint-staged: 16.1.4
+    inquirer: 12.9.1
+    lint-staged: 16.1.5
     pinst: 3.0.0
     ts-node: 10.9.2
     typescript: 4.9.5
@@ -4434,12 +4462,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml@npm:^2.8.0":
-  version: 2.8.0
-  resolution: "yaml@npm:2.8.0"
+"yaml@npm:^2.8.1":
+  version: 2.8.1
+  resolution: "yaml@npm:2.8.1"
   bin:
     yaml: bin.mjs
-  checksum: 66f103ca5a2f02dac0526895cc7ae7626d91aa8c43aad6fdcff15edf68b1199be4012140b390063877913441aaa5288fdf57eca30e06268a8282dd741525e626
+  checksum: 35b46150d48bc1da2fd5b1521a48a4fa36d68deaabe496f3c3fa9646d5796b6b974f3930a02c4b5aee6c85c860d7d7f79009416724465e835f40b87898c36de4
   languageName: node
   linkType: hard
 
