@@ -413,9 +413,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/confirm@npm:^5.1.14":
-  version: 5.1.14
-  resolution: "@inquirer/confirm@npm:5.1.14"
+"@inquirer/confirm@npm:^5.1.15":
+  version: 5.1.15
+  resolution: "@inquirer/confirm@npm:5.1.15"
   dependencies:
     "@inquirer/core": ^10.1.15
     "@inquirer/type": ^3.0.8
@@ -424,7 +424,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: 18e56ca1a46bd7b03064cc01b467f9c699d0c27abdccafb14174192875d7a39a1802eb968386f33668303a28b0b1859dac07ac0323422c35a62f5a80a0987a7a
+  checksum: d9202888f29bf9f81f97d9f6f67da42324452d139f1408884e0c12037338dc18f565947ec9b843f4762c463f2981f29f9b2335a9befac9e8f0000ba237b76b91
   languageName: node
   linkType: hard
 
@@ -549,12 +549,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/prompts@npm:^7.8.2":
-  version: 7.8.2
-  resolution: "@inquirer/prompts@npm:7.8.2"
+"@inquirer/prompts@npm:^7.8.3":
+  version: 7.8.3
+  resolution: "@inquirer/prompts@npm:7.8.3"
   dependencies:
     "@inquirer/checkbox": ^4.2.1
-    "@inquirer/confirm": ^5.1.14
+    "@inquirer/confirm": ^5.1.15
     "@inquirer/editor": ^4.2.17
     "@inquirer/expand": ^4.0.17
     "@inquirer/input": ^4.2.1
@@ -568,7 +568,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: 17e51e8d55bc9df117a24da77e52e48cc16123fcdf55a320d1b9cb54609766a8a13daffc5799229024caf6675d40ee118188d40ca8d065915be78d566773a950
+  checksum: 81ac3bc15086431c2086d5edb359662f5c216d32225656f10143cbf3fcfed9a9f7dffc4bbb96f23aaf897d08aec5529fc68859cb0b99e713637b557b006e700a
   languageName: node
   linkType: hard
 
@@ -2669,12 +2669,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inquirer@npm:12.9.2":
-  version: 12.9.2
-  resolution: "inquirer@npm:12.9.2"
+"inquirer@npm:12.9.3":
+  version: 12.9.3
+  resolution: "inquirer@npm:12.9.3"
   dependencies:
     "@inquirer/core": ^10.1.15
-    "@inquirer/prompts": ^7.8.2
+    "@inquirer/prompts": ^7.8.3
     "@inquirer/type": ^3.0.8
     ansi-escapes: ^4.3.2
     mute-stream: ^2.0.0
@@ -2685,7 +2685,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: 5425124fd4855ccc088bd0162a770da1aa7254ef74faf679e89caf84ba80169b7fd71250fefd5138f268735a037380a31dacde3dda2ca2ed433ddff7e9b68760
+  checksum: bfd260ba80412bc4f68d9b61214d06381af68292568c93a743c237e9f1b55a58e92eae3996f2a50aeddfc993d408f54dce57929321e50eefd63e110d0155eed0
   languageName: node
   linkType: hard
 
@@ -4103,7 +4103,7 @@ __metadata:
     commitizen: 4.3.1
     eslint: 9.33.0
     husky: 9.1.7
-    inquirer: 12.9.2
+    inquirer: 12.9.3
     lint-staged: 16.1.5
     pinst: 3.0.0
     ts-node: 10.9.2
