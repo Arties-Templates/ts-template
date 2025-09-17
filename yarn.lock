@@ -428,7 +428,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/core@npm:^10.2.0, @inquirer/core@npm:^10.2.2":
+"@inquirer/core@npm:^10.2.2":
   version: 10.2.2
   resolution: "@inquirer/core@npm:10.2.2"
   dependencies:
@@ -549,7 +549,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/prompts@npm:^7.8.4":
+"@inquirer/prompts@npm:^7.8.6":
   version: 7.8.6
   resolution: "@inquirer/prompts@npm:7.8.6"
   dependencies:
@@ -830,12 +830,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.18.3":
-  version: 22.18.3
-  resolution: "@types/node@npm:22.18.3"
+"@types/node@npm:22.18.5":
+  version: 22.18.5
+  resolution: "@types/node@npm:22.18.5"
   dependencies:
     undici-types: ~6.21.0
-  checksum: a187fba6b48886e8c3e083eb62a98e6093fb7aa65b9157b7a0a951a5e2815c22047bd0456c039189a4b4ff5ed5e2663de522ae4cc760d195492b8f668dfbff67
+  checksum: 1b6168f13ac7753eb4e1881858172a24e98d630e2ad0be520bf7a73e50bec41277ae7caf168a62432825f94e4548c5700a218e0b566ca1138431005f2359ac38
   languageName: node
   linkType: hard
 
@@ -1075,7 +1075,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ansi-escapes@npm:^4.2.1, ansi-escapes@npm:^4.3.2":
+"ansi-escapes@npm:^4.2.1":
   version: 4.3.2
   resolution: "ansi-escapes@npm:4.3.2"
   dependencies:
@@ -2679,14 +2679,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inquirer@npm:12.9.4":
-  version: 12.9.4
-  resolution: "inquirer@npm:12.9.4"
+"inquirer@npm:12.9.6":
+  version: 12.9.6
+  resolution: "inquirer@npm:12.9.6"
   dependencies:
-    "@inquirer/core": ^10.2.0
-    "@inquirer/prompts": ^7.8.4
+    "@inquirer/ansi": ^1.0.0
+    "@inquirer/core": ^10.2.2
+    "@inquirer/prompts": ^7.8.6
     "@inquirer/type": ^3.0.8
-    ansi-escapes: ^4.3.2
     mute-stream: ^2.0.0
     run-async: ^4.0.5
     rxjs: ^7.8.2
@@ -2695,7 +2695,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: 55b06f714ae72935cf440f5fc8dde840e782066a00c1be69c4ecae3b2624f18b55c88c28afe4e5d76eb69f1d1449b385d0897942328cd12323b6552b5d250ffc
+  checksum: 5fae189bcc5a71cef91839b396249bbda42579a39c0b1b468b1f79015e9b831703c1ccbdd5e6b3f5f73407c6f9c4917c6728fc8c240f14a8aa97a3de81e95511
   languageName: node
   linkType: hard
 
@@ -4118,12 +4118,12 @@ __metadata:
     "@commitlint/cli": 19.8.1
     "@commitlint/config-conventional": 19.8.1
     "@commitlint/cz-commitlint": 19.8.1
-    "@types/node": 22.18.3
+    "@types/node": 22.18.5
     ava: 6.4.1
     commitizen: 4.3.1
     eslint: 9.35.0
     husky: 9.1.7
-    inquirer: 12.9.4
+    inquirer: 12.9.6
     lint-staged: 16.1.6
     pinst: 3.0.0
     ts-node: 10.9.2
