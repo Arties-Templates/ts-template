@@ -823,16 +823,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
-  version: 24.9.2
-  resolution: "@types/node@npm:24.9.2"
-  dependencies:
-    undici-types: ~7.16.0
-  checksum: 6f1d2c66ce14ef58934c7140b8b7003b3e55fc3b23128bfdabdf59a02f4ff4dbb89a58cd95cc11310cce6c6ffeb5cacc3afaa8753d4a9cd4afdc447a6ab61bee
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:24.10.0":
+"@types/node@npm:*, @types/node@npm:24.10.0":
   version: 24.10.0
   resolution: "@types/node@npm:24.10.0"
   dependencies:
@@ -1087,11 +1078,11 @@ __metadata:
   linkType: hard
 
 "ansi-escapes@npm:^7.0.0":
-  version: 7.1.1
-  resolution: "ansi-escapes@npm:7.1.1"
+  version: 7.2.0
+  resolution: "ansi-escapes@npm:7.2.0"
   dependencies:
     environment: ^1.0.0
-  checksum: 458361e54f6e7f3a8a3df6d0e39e9e2d0270963753ec50e05b6a4d784d05bcc5e35ee370071725b9e9f5b66b1d11f607196b516216fb4cd22a76bd0ea9fa6d39
+  checksum: d490871d4107dc6d4b0f2d0eaddbe3e4681d584c58495f06fe2908f2707bbaaf54825f485c5a6ce14c2d2a731fa382b18d7235a102db69aeff5dd9461397cb44
   languageName: node
   linkType: hard
 
@@ -4134,9 +4125,9 @@ __metadata:
   linkType: hard
 
 "tinyexec@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "tinyexec@npm:1.0.1"
-  checksum: 40f5219abf891884863b085ebe5e8c8bf95bde802f6480f279588b355835ad1604fa01eada2afe90063b48b53cd4b0be5c37393980e23f06fd10689d92fb9586
+  version: 1.0.2
+  resolution: "tinyexec@npm:1.0.2"
+  checksum: af22de2191cc70bb782eef29bbba7cf6ac16664e550b547b0db68804f988eeb2c70e12fbb7d2d688ee994b28ba831d746e9eded98c3d10042fd3a9b8de208514
   languageName: node
   linkType: hard
 
