@@ -30,7 +30,7 @@
     "eslint": "9.39.1",
     "husky": "9.1.7",
     "inquirer": "13.0.1",
-    "lint-staged": "16.2.6",
+    "lint-staged": "16.2.7",
     "pinst": "3.0.0",
     "ts-node": "10.9.2",
     "typescript": "4.9.5"
