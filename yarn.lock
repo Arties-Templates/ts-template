@@ -2674,9 +2674,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inquirer@npm:13.2.1":
-  version: 13.2.1
-  resolution: "inquirer@npm:13.2.1"
+"inquirer@npm:13.2.2":
+  version: 13.2.2
+  resolution: "inquirer@npm:13.2.2"
   dependencies:
     "@inquirer/ansi": ^2.0.3
     "@inquirer/core": ^11.1.1
@@ -2690,7 +2690,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: c0744ebd995e53232515edfeb034a4b79e4f0bbbf2891588febd557cad30a27e2d8ea2be67d0b010f130a98d4ec0799c8d2a35be6cca33047582c69712e45c1e
+  checksum: e6b8885c9c3dcc84eeb4767c9a7ca66ab65334157a5c64ce708f52d78ce161052e0a12a5d2b691a4ce70762711851fe059ae9cf35db3b07cd040f41f6adc0fba
   languageName: node
   linkType: hard
 
@@ -4105,7 +4105,7 @@ __metadata:
     commitizen: 4.3.1
     eslint: 9.39.2
     husky: 9.1.7
-    inquirer: 13.2.1
+    inquirer: 13.2.2
     lint-staged: 16.2.7
     pinst: 3.0.0
     ts-node: 10.9.2
