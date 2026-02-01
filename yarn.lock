@@ -17,12 +17,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@artiefuzzz/ts@npm:1.3.2":
-  version: 1.3.2
-  resolution: "@artiefuzzz/ts@npm:1.3.2"
+"@artiefuzzz/ts@npm:1.4.0":
+  version: 1.4.0
+  resolution: "@artiefuzzz/ts@npm:1.4.0"
   dependencies:
-    tslib: ^2.3.1
-  checksum: 6331ec7f65198ea5df36596a3bd3f24d32560df9147b8837dbd776448bb5c7bc19bdd3f8b96e2917e07ddf150d7deb89eab003718ab42aec5f7e022908699d9b
+    tslib: 2.8.1
+  checksum: dcc7ab1da97ee97331302aadda7c3b0658014eb588a596596d44fe94eeaacb75b3b425ba78be934589267021c0ac6e3aaa840933a331f42da9fa1f8fe8e955b0
   languageName: node
   linkType: hard
 
@@ -4045,7 +4045,7 @@ __metadata:
   resolution: "template@workspace:."
   dependencies:
     "@artiefuzzz/eslint-config": 1.3.1
-    "@artiefuzzz/ts": 1.3.2
+    "@artiefuzzz/ts": 1.4.0
     "@ava/typescript": 6.0.0
     "@commitlint/cli": 20.4.0
     "@commitlint/config-conventional": 20.4.0
@@ -4147,17 +4147,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tslib@npm:2.8.1, tslib@npm:^2.1.0":
+  version: 2.8.1
+  resolution: "tslib@npm:2.8.1"
+  checksum: e4aba30e632b8c8902b47587fd13345e2827fa639e7c3121074d5ee0880723282411a8838f830b55100cbe4517672f84a2472667d355b81e8af165a55dc6203a
+  languageName: node
+  linkType: hard
+
 "tslib@npm:^1.8.1":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: dbe628ef87f66691d5d2959b3e41b9ca0045c3ee3c7c7b906cc1e328b39f199bb1ad9e671c39025bd56122ac57dfbf7385a94843b1cc07c60a4db74795829acd
-  languageName: node
-  linkType: hard
-
-"tslib@npm:^2.1.0, tslib@npm:^2.3.1":
-  version: 2.8.1
-  resolution: "tslib@npm:2.8.1"
-  checksum: e4aba30e632b8c8902b47587fd13345e2827fa639e7c3121074d5ee0880723282411a8838f830b55100cbe4517672f84a2472667d355b81e8af165a55dc6203a
   languageName: node
   linkType: hard
 
