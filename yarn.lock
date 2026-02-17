@@ -424,6 +424,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@inquirer/core@npm:^11.1.4":
+  version: 11.1.4
+  resolution: "@inquirer/core@npm:11.1.4"
+  dependencies:
+    "@inquirer/ansi": ^2.0.3
+    "@inquirer/figures": ^2.0.3
+    "@inquirer/type": ^4.0.3
+    cli-width: ^4.1.0
+    fast-wrap-ansi: ^0.2.0
+    mute-stream: ^3.0.0
+    signal-exit: ^4.1.0
+  peerDependencies:
+    "@types/node": ">=18"
+  peerDependenciesMeta:
+    "@types/node":
+      optional: true
+  checksum: 5b77d554c7c12d1456eb51696e21274d0551e0c1a0e5e43d1e5500e4294b549943c252e593f298488da017329fa728c9ffea8aedd6dd6ba621b6fb603067a199
+  languageName: node
+  linkType: hard
+
 "@inquirer/editor@npm:^5.0.5":
   version: 5.0.6
   resolution: "@inquirer/editor@npm:5.0.6"
@@ -2653,12 +2673,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inquirer@npm:13.2.4":
-  version: 13.2.4
-  resolution: "inquirer@npm:13.2.4"
+"inquirer@npm:13.2.5":
+  version: 13.2.5
+  resolution: "inquirer@npm:13.2.5"
   dependencies:
     "@inquirer/ansi": ^2.0.3
-    "@inquirer/core": ^11.1.3
+    "@inquirer/core": ^11.1.4
     "@inquirer/prompts": ^8.2.1
     "@inquirer/type": ^4.0.3
     mute-stream: ^3.0.0
@@ -2669,7 +2689,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: 289e7703a9e9f46ff5cedd13ed30e13cf0d17db60f77867f8a5f799a93fb8c7464d667f9a570d807ed95e8c8b0a998b185f8ae207011957919855c40ab6275c5
+  checksum: a662f1c4642b82b7e96ba82267adf9b8b431c74482edc76d4a4052351e85f0e4f4836261f19ceecdc00cf17e57a876e4b5a7b415ace2e85932e66b427cb6d912
   languageName: node
   linkType: hard
 
@@ -4038,7 +4058,7 @@ __metadata:
     commitizen: 4.3.1
     eslint: 10.0.0
     husky: 9.1.7
-    inquirer: 13.2.4
+    inquirer: 13.2.5
     lint-staged: 16.2.7
     pinst: 3.0.0
     ts-node: 10.9.2
