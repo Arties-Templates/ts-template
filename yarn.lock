@@ -318,7 +318,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/config-helpers@npm:^0.5.2":
+"@eslint/config-helpers@npm:^0.5.3":
   version: 0.5.3
   resolution: "@eslint/config-helpers@npm:0.5.3"
   dependencies:
@@ -1980,14 +1980,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:10.0.3":
-  version: 10.0.3
-  resolution: "eslint@npm:10.0.3"
+"eslint@npm:10.1.0":
+  version: 10.1.0
+  resolution: "eslint@npm:10.1.0"
   dependencies:
     "@eslint-community/eslint-utils": ^4.8.0
     "@eslint-community/regexpp": ^4.12.2
     "@eslint/config-array": ^0.23.3
-    "@eslint/config-helpers": ^0.5.2
+    "@eslint/config-helpers": ^0.5.3
     "@eslint/core": ^1.1.1
     "@eslint/plugin-kit": ^0.6.1
     "@humanfs/node": ^0.16.6
@@ -2000,7 +2000,7 @@ __metadata:
     escape-string-regexp: ^4.0.0
     eslint-scope: ^9.1.2
     eslint-visitor-keys: ^5.0.1
-    espree: ^11.1.1
+    espree: ^11.2.0
     esquery: ^1.7.0
     esutils: ^2.0.2
     fast-deep-equal: ^3.1.3
@@ -2021,11 +2021,11 @@ __metadata:
       optional: true
   bin:
     eslint: bin/eslint.js
-  checksum: 8c72a52a8f21db4292e2c4fc4a4c6c8aef12634ce2613a9848385818cb6a2e7e70362dddff9e5b6f77f653f6e4ec51de91e6761028fa755c173417fbcb032d7b
+  checksum: c4f63b8a58505052d725b8a5c288f17f673a8f58cb13b946332e341b26aa9d77fc3b519ef6096ee9ca179c8e911e1366e0efdd244333184a3066d46e75f7fb93
   languageName: node
   linkType: hard
 
-"espree@npm:^11.1.1":
+"espree@npm:^11.2.0":
   version: 11.2.0
   resolution: "espree@npm:11.2.0"
   dependencies:
@@ -4025,7 +4025,7 @@ __metadata:
     "@types/node": 24.12.0
     ava: 6.4.1
     commitizen: 4.3.1
-    eslint: 10.0.3
+    eslint: 10.1.0
     husky: 9.1.7
     inquirer: 13.3.2
     lint-staged: 16.4.0
