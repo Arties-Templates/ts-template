@@ -91,9 +91,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cz-commitlint@npm:20.5.0":
-  version: 20.5.0
-  resolution: "@commitlint/cz-commitlint@npm:20.5.0"
+"@commitlint/cz-commitlint@npm:20.5.1":
+  version: 20.5.1
+  resolution: "@commitlint/cz-commitlint@npm:20.5.1"
   dependencies:
     "@commitlint/ensure": ^20.5.0
     "@commitlint/load": ^20.5.0
@@ -104,7 +104,7 @@ __metadata:
   peerDependencies:
     commitizen: ^4.0.3
     inquirer: ^9.0.0
-  checksum: 672e9940a9403e98d62f8d7650f9579a3d0adc74829b4df8677b696eb1c112c8740bee38aed8b932a8d35c7529cc5e41c151d7dcef9d99597195cdef9579215f
+  checksum: 004138ff25466d3f653af5ba5a2fa9f0b8f52a1ec78ab1a1cd0577677e95ef1883b12408031b9ec224eb7380bb965d067c116d5e1cd824223e8cfb8476502788
   languageName: node
   linkType: hard
 
@@ -4021,7 +4021,7 @@ __metadata:
     "@ava/typescript": 6.0.0
     "@commitlint/cli": 20.5.0
     "@commitlint/config-conventional": 20.5.0
-    "@commitlint/cz-commitlint": 20.5.0
+    "@commitlint/cz-commitlint": 20.5.1
     "@types/node": 24.12.0
     ava: 6.4.1
     commitizen: 4.3.1
