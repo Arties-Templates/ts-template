@@ -157,24 +157,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:>6.1.1":
-  version: 20.5.2
-  resolution: "@commitlint/load@npm:20.5.2"
-  dependencies:
-    "@commitlint/config-validator": ^20.5.0
-    "@commitlint/execute-rule": ^20.0.0
-    "@commitlint/resolve-extends": ^20.5.2
-    "@commitlint/types": ^20.5.0
-    cosmiconfig: ^9.0.1
-    cosmiconfig-typescript-loader: ^6.1.0
-    is-plain-obj: ^4.1.0
-    lodash.mergewith: ^4.6.2
-    picocolors: ^1.1.1
-  checksum: a3a9fb21d0c7d39e7a3402bbb335506a91805aed3669d0977a28b3a7a2bb6493016418124e26caae5226391681d880b02ca961554aecdcde8f35c69f24cb2247
-  languageName: node
-  linkType: hard
-
-"@commitlint/load@npm:^20.5.3":
+"@commitlint/load@npm:>6.1.1, @commitlint/load@npm:^20.5.3":
   version: 20.5.3
   resolution: "@commitlint/load@npm:20.5.3"
   dependencies:
@@ -219,20 +202,6 @@ __metadata:
     minimist: ^1.2.8
     tinyexec: ^1.0.0
   checksum: 8fa1a9923bcb670669dafc01d2283b21eb7e6e5ea653a93b89e8fce70a04cd403af0cb8bc58940ce81b886038f8ef3f6b07c4e0e0597d12fdbc12a5654da1089
-  languageName: node
-  linkType: hard
-
-"@commitlint/resolve-extends@npm:^20.5.2":
-  version: 20.5.2
-  resolution: "@commitlint/resolve-extends@npm:20.5.2"
-  dependencies:
-    "@commitlint/config-validator": ^20.5.0
-    "@commitlint/types": ^20.5.0
-    global-directory: ^5.0.0
-    import-meta-resolve: ^4.0.0
-    lodash.mergewith: ^4.6.2
-    resolve-from: ^5.0.0
-  checksum: e138b9735b9169b94e7fb010d9cec09c840380087008d378afee7b215b684ceca05bc2f34d22a259aee4c9c4e8b0a74af15a4e20441eed33f964592497789a6d
   languageName: node
   linkType: hard
 
@@ -3087,13 +3056,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash.mergewith@npm:^4.6.2":
-  version: 4.6.2
-  resolution: "lodash.mergewith@npm:4.6.2"
-  checksum: a6db2a9339752411f21b956908c404ec1e088e783a65c8b29e30ae5b3b6384f82517662d6f425cc97c2070b546cc2c7daaa8d33f78db7b6e9be06cd834abdeb8
-  languageName: node
-  linkType: hard
-
 "lodash@npm:4.17.21":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
@@ -3919,12 +3881,12 @@ __metadata:
   linkType: hard
 
 "string-width@npm:^8.2.0":
-  version: 8.2.0
-  resolution: "string-width@npm:8.2.0"
+  version: 8.2.1
+  resolution: "string-width@npm:8.2.1"
   dependencies:
     get-east-asian-width: ^1.5.0
     strip-ansi: ^7.1.2
-  checksum: c4f62877ec08fca155e84a260eb4f58f473cfe5169bd1c1e21ffb563d8e0b7f6d705cc3d250f2ed6bb4f30ee9732ad026f54afaac77aa487e3d1dc1b1969e51b
+  checksum: f77829903c89e671942a8863cfc801f9ea330d3b7439f0ef9b0fcb2960866802bb90c598cf9aca86961e616e6d5182077e8b9c389f8ace42f7a3584a4f8f99d0
   languageName: node
   linkType: hard
 
@@ -4064,9 +4026,9 @@ __metadata:
   linkType: hard
 
 "tinyexec@npm:^1.0.0, tinyexec@npm:^1.0.4":
-  version: 1.1.1
-  resolution: "tinyexec@npm:1.1.1"
-  checksum: ccc16686f526d3d535a83ed0073c042c2957f66f967914d9adc308e6de84c6ca34aef0abf26e9b187ab7e8f1aa8d87f7377b9fdfa4d76fcd7041c74b4e734817
+  version: 1.1.2
+  resolution: "tinyexec@npm:1.1.2"
+  checksum: be2cb2b60c415bf9ef2006f86b566774445ea59249b62edc293996299d0b235a14b3ec41bc11e942914287306e5d2c390a1f47cbf781cf3e96833312f0dca6bf
   languageName: node
   linkType: hard
 
@@ -4372,11 +4334,11 @@ __metadata:
   linkType: hard
 
 "yaml@npm:^2.8.2":
-  version: 2.8.3
-  resolution: "yaml@npm:2.8.3"
+  version: 2.8.4
+  resolution: "yaml@npm:2.8.4"
   bin:
     yaml: bin.mjs
-  checksum: 6e33fa9a8a31a8ed7472fbafc83e587956611594ca6ae4dbc1ab0c8a3ad4f6ff061a9842ca34bbb2e7affa9df93322cf0d132fd34338bec308d984495432c905
+  checksum: 04658713380cecf0b2c13fce255a5ea39c694e4b38a3e8416834e1dc84b70e4cebe0f3d8cbaa5f14901f581b904739b977b0fb6d04aa2e0e0ac95857e2ac37f0
   languageName: node
   linkType: hard
 
