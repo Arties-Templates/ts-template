@@ -3007,21 +3007,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:17.0.5":
-  version: 17.0.5
-  resolution: "lint-staged@npm:17.0.5"
+"lint-staged@npm:17.0.6":
+  version: 17.0.6
+  resolution: "lint-staged@npm:17.0.6"
   dependencies:
     listr2: ^10.2.1
     picomatch: ^4.0.4
     string-argv: ^0.3.2
-    tinyexec: ^1.1.2
-    yaml: ^2.8.4
+    tinyexec: 1.2.2
+    yaml: ^2.9.0
   dependenciesMeta:
     yaml:
       optional: true
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 9e8ace17986e97ecbe16a0b97c1de361e58757340330efcfc5b665cb407ea80748acf8b74bcfd8e75ed26561e17677d85cde47d5a3af5009d0bd00f08f684ac5
+  checksum: 26e253c728d8f51f3cf983871fe3758a7e009fcd9397f0fca0cab17cc18afc5aece3ca745bdd63d50a57327ff12d59ac9b11db8c2723b198154f3dbd8cad4baa
   languageName: node
   linkType: hard
 
@@ -4002,7 +4002,7 @@ __metadata:
     eslint: 10.4.1
     husky: 9.1.7
     inquirer: 14.0.1
-    lint-staged: 17.0.5
+    lint-staged: 17.0.6
     pinst: 3.0.0
     ts-node: 10.9.2
     typescript: 4.9.5
@@ -4023,7 +4023,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinyexec@npm:^1.0.0, tinyexec@npm:^1.1.2":
+"tinyexec@npm:1.2.2, tinyexec@npm:^1.0.0":
   version: 1.2.2
   resolution: "tinyexec@npm:1.2.2"
   checksum: 8d7cbfc8cb09087905d021063ef50182ddf2a9b3184ffe1f5b000056721b6bcc34d3f7e38eae0abfa83d31e92948cb0825a4994ead3fe2db3ff7656baeff3cb3
@@ -4342,7 +4342,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml@npm:^2.8.4":
+"yaml@npm:^2.9.0":
   version: 2.9.0
   resolution: "yaml@npm:2.9.0"
   bin:
