@@ -464,19 +464,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/editor@npm:^5.2.1":
-  version: 5.2.1
-  resolution: "@inquirer/editor@npm:5.2.1"
+"@inquirer/editor@npm:^5.2.2":
+  version: 5.2.2
+  resolution: "@inquirer/editor@npm:5.2.2"
   dependencies:
     "@inquirer/core": ^11.2.1
-    "@inquirer/external-editor": ^3.0.2
+    "@inquirer/external-editor": ^3.0.3
     "@inquirer/type": ^4.0.7
   peerDependencies:
     "@types/node": ">=18"
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: 5257d31b36545ab9fbbbe0fb92f648a00cc08c9dbbec81a4e69fccbd5bf37461656c01d20ee83abe9aabe6f49b550e1e2a85d8594200ce210875e8a8da82dfd0
+  checksum: 02cfe29da8741f6e61b767bbd33adcc96784974ae87e567cb742c0dab0f2fd507829a8963ff92c510160c81d6f7765222c4050a011994bfdc09f9f37e798e1bc
   languageName: node
   linkType: hard
 
@@ -495,9 +495,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/external-editor@npm:^3.0.2":
-  version: 3.0.2
-  resolution: "@inquirer/external-editor@npm:3.0.2"
+"@inquirer/external-editor@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "@inquirer/external-editor@npm:3.0.3"
   dependencies:
     chardet: ^2.1.1
     iconv-lite: ^0.7.2
@@ -506,7 +506,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: 3abc28825bdbd3bfd25f8c8a71b0376c0cd1b9b10ca91e8ffe2b48526c0eea0ed687fb9616e5ce7b6fbfce216506ee0ea76c4e1d852f88e6a45d09869a48542d
+  checksum: d34c457a70215054aadae62442e468049f7c5a5381f0e40b3835a17b0c164130c4a544cee64b4c9ff468982a6cb895250d2b2f0f391f86741f4a59244ab6c1d5
   languageName: node
   linkType: hard
 
@@ -517,9 +517,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/input@npm:^5.1.1":
-  version: 5.1.1
-  resolution: "@inquirer/input@npm:5.1.1"
+"@inquirer/input@npm:^5.1.2":
+  version: 5.1.2
+  resolution: "@inquirer/input@npm:5.1.2"
   dependencies:
     "@inquirer/core": ^11.2.1
     "@inquirer/type": ^4.0.7
@@ -528,7 +528,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: 05f472a362d5c273490ade6d64823a72fae4f9c904c1988488de31efe415c2b3152f4bf51e836f9c4155f5d07f9768d0b51178e615b3c1a98efef85430086cd2
+  checksum: f0c151a6e1f9a5ecac450a28b18ea06c43f0163cbc5a95c3e0233aaf7d60915c114cfadc886986d23248a7dc7a6b11a52ef4475e196c8a4cdf1ff38755455531
   languageName: node
   linkType: hard
 
@@ -563,15 +563,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/prompts@npm:^8.5.1":
-  version: 8.5.1
-  resolution: "@inquirer/prompts@npm:8.5.1"
+"@inquirer/prompts@npm:^8.5.2":
+  version: 8.5.2
+  resolution: "@inquirer/prompts@npm:8.5.2"
   dependencies:
     "@inquirer/checkbox": ^5.2.1
     "@inquirer/confirm": ^6.1.1
-    "@inquirer/editor": ^5.2.1
+    "@inquirer/editor": ^5.2.2
     "@inquirer/expand": ^5.1.1
-    "@inquirer/input": ^5.1.1
+    "@inquirer/input": ^5.1.2
     "@inquirer/number": ^4.1.1
     "@inquirer/password": ^5.1.1
     "@inquirer/rawlist": ^5.3.1
@@ -582,7 +582,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: 3dd988f9cd7ae8ef7b82879ab5bbb1719a2079d02a44da829978d3189cb59b5bbc84a1d03ea09726e33263828a82906bbacd17273cc1645faa9aba5715c2a9af
+  checksum: a5cdf56fe04a07a6ac46c2fd304f72b5b9d87f239a6316aa1b811ff9ff9bcf3c935afd20955358069382abfedb44d0ce89bdadb3f58809f40ab0fbb8d1981b53
   languageName: node
   linkType: hard
 
@@ -2695,13 +2695,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inquirer@npm:14.0.1":
-  version: 14.0.1
-  resolution: "inquirer@npm:14.0.1"
+"inquirer@npm:14.0.2":
+  version: 14.0.2
+  resolution: "inquirer@npm:14.0.2"
   dependencies:
     "@inquirer/ansi": ^2.0.7
     "@inquirer/core": ^11.2.1
-    "@inquirer/prompts": ^8.5.1
+    "@inquirer/prompts": ^8.5.2
     "@inquirer/type": ^4.0.7
     mute-stream: ^3.0.0
     run-async: ^4.0.6
@@ -2710,7 +2710,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: 0bac731b767404d16a2dae519059db34f2882eceeb55cc5ca6f324fbbe53b78735c6342aa987a6384be136953d03beb97a0e857eb139aaeb68191ffd57c2802f
+  checksum: 973e94115d68618c2038ee1881df4a934d55a503a0bb9bb095631056ade50b0945d123bdc6f70ec04b5e7563319e52552903fc83706d947ec7ef1ceb46e0e178
   languageName: node
   linkType: hard
 
@@ -3007,21 +3007,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:17.0.6":
-  version: 17.0.6
-  resolution: "lint-staged@npm:17.0.6"
+"lint-staged@npm:17.0.7":
+  version: 17.0.7
+  resolution: "lint-staged@npm:17.0.7"
   dependencies:
     listr2: ^10.2.1
     picomatch: ^4.0.4
     string-argv: ^0.3.2
-    tinyexec: 1.2.2
+    tinyexec: ^1.2.4
     yaml: ^2.9.0
   dependenciesMeta:
     yaml:
       optional: true
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 26e253c728d8f51f3cf983871fe3758a7e009fcd9397f0fca0cab17cc18afc5aece3ca745bdd63d50a57327ff12d59ac9b11db8c2723b198154f3dbd8cad4baa
+  checksum: 96d2fc2ff0a7fea2096644ae60e4576758f4d5c9d44432e1cfbf27f0ad634fa4c1fa82ae91101ef1ada062874d569b7c6bb0c3811db3055eee762914700fd356
   languageName: node
   linkType: hard
 
@@ -4001,8 +4001,8 @@ __metadata:
     commitizen: 4.3.1
     eslint: 10.4.1
     husky: 9.1.7
-    inquirer: 14.0.1
-    lint-staged: 17.0.6
+    inquirer: 14.0.2
+    lint-staged: 17.0.7
     pinst: 3.0.0
     ts-node: 10.9.2
     typescript: 4.9.5
@@ -4023,10 +4023,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinyexec@npm:1.2.2, tinyexec@npm:^1.0.0":
+"tinyexec@npm:^1.0.0":
   version: 1.2.2
   resolution: "tinyexec@npm:1.2.2"
   checksum: 8d7cbfc8cb09087905d021063ef50182ddf2a9b3184ffe1f5b000056721b6bcc34d3f7e38eae0abfa83d31e92948cb0825a4994ead3fe2db3ff7656baeff3cb3
+  languageName: node
+  linkType: hard
+
+"tinyexec@npm:^1.2.4":
+  version: 1.2.4
+  resolution: "tinyexec@npm:1.2.4"
+  checksum: 3004b0f784c17d35a87251059dd6d81685848472a21a8c258f7b6c0433a25e37552f3955b0844f422895711fae24f44a8b1165597b8b0fe3fe8d0a25264fe9d9
   languageName: node
   linkType: hard
 
