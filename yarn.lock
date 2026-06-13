@@ -478,6 +478,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@inquirer/external-editor@npm:^1.0.0":
+  version: 1.0.3
+  resolution: "@inquirer/external-editor@npm:1.0.3"
+  dependencies:
+    chardet: ^2.1.1
+    iconv-lite: ^0.7.0
+  peerDependencies:
+    "@types/node": ">=18"
+  peerDependenciesMeta:
+    "@types/node":
+      optional: true
+  checksum: 9bd7a05247a00408c194648c74046d8a212df1e6b9fe0879b945ebfc35c2524e995e43f7ecd83f14d0bd4e31f985d18819efc31c27810e2c2b838ded7261431f
+  languageName: node
+  linkType: hard
+
 "@inquirer/external-editor@npm:^3.0.3":
   version: 3.0.3
   resolution: "@inquirer/external-editor@npm:3.0.3"
@@ -1348,6 +1363,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cachedir@npm:2.4.0":
+  version: 2.4.0
+  resolution: "cachedir@npm:2.4.0"
+  checksum: 43198514eaa61f65b5535ed29ad651f22836fba3868ed58a6a87731f05462f317d39098fa3ac778801c25455483c9b7f32a2fcad1f690a978947431f12a0f4d0
+  languageName: node
+  linkType: hard
+
 "callsites@npm:^3.0.0":
   version: 3.1.0
   resolution: "callsites@npm:3.1.0"
@@ -1570,7 +1592,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commitizen@npm:4.3.1, commitizen@npm:^4.0.3":
+"commitizen@npm:4.3.2":
+  version: 4.3.2
+  resolution: "commitizen@npm:4.3.2"
+  dependencies:
+    cachedir: 2.4.0
+    cz-conventional-changelog: 3.3.0
+    dedent: 0.7.0
+    detect-indent: 6.1.0
+    find-node-modules: ^2.1.2
+    find-root: 1.1.0
+    fs-extra: 9.1.0
+    glob: 7.2.3
+    inquirer: 8.2.7
+    is-utf8: ^0.2.1
+    lodash: 4.18.1
+    minimist: 1.2.8
+    strip-bom: 4.0.0
+    strip-json-comments: 3.1.1
+  bin:
+    commitizen: bin/commitizen
+    cz: bin/git-cz
+    git-cz: bin/git-cz
+  checksum: b51e1737250a074500eb6252f3fa9ba3e4c18cddaea08156a3fdd307f099884c75c18685dff95002a73bc110a4120ee91fcd1458887f522e17f0295a30e4c7de
+  languageName: node
+  linkType: hard
+
+"commitizen@npm:^4.0.3":
   version: 4.3.1
   resolution: "commitizen@npm:4.3.1"
   dependencies:
@@ -1995,9 +2043,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:10.4.1":
-  version: 10.4.1
-  resolution: "eslint@npm:10.4.1"
+"eslint@npm:10.5.0":
+  version: 10.5.0
+  resolution: "eslint@npm:10.5.0"
   dependencies:
     "@eslint-community/eslint-utils": ^4.8.0
     "@eslint-community/regexpp": ^4.12.2
@@ -2036,7 +2084,7 @@ __metadata:
       optional: true
   bin:
     eslint: bin/eslint.js
-  checksum: dc799503f619f097617e2a7d32dc5b8855c83d52df15278e4584730d94ad58aaf258cd6d113bec53f63aa694e34a43871f00bf90030b04661d445c598a403dd1
+  checksum: ba4154355defd36a38b3200c53a0190c50165d9d09821f99f88707a959ff913693dabd15e4cf4df2d63c24596cc6dd5f02635ca03b78d2cb618d9071d246bbf1
   languageName: node
   linkType: hard
 
@@ -2588,7 +2636,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"iconv-lite@npm:^0.7.2":
+"iconv-lite@npm:^0.7.0, iconv-lite@npm:^0.7.2":
   version: 0.7.2
   resolution: "iconv-lite@npm:0.7.2"
   dependencies:
@@ -2719,6 +2767,29 @@ __metadata:
     through: ^2.3.6
     wrap-ansi: ^7.0.0
   checksum: f13ee4c444187786fb393609dedf6b30870115a57b603f2e6424f29a99abc13446fd45ee22461c33c9c40a92a60a8df62d0d6b25d74fc6676fa4cb211de55b55
+  languageName: node
+  linkType: hard
+
+"inquirer@npm:8.2.7":
+  version: 8.2.7
+  resolution: "inquirer@npm:8.2.7"
+  dependencies:
+    "@inquirer/external-editor": ^1.0.0
+    ansi-escapes: ^4.2.1
+    chalk: ^4.1.1
+    cli-cursor: ^3.1.0
+    cli-width: ^3.0.0
+    figures: ^3.0.0
+    lodash: ^4.17.21
+    mute-stream: 0.0.8
+    ora: ^5.4.1
+    run-async: ^2.4.0
+    rxjs: ^7.5.5
+    string-width: ^4.1.0
+    strip-ansi: ^6.0.0
+    through: ^2.3.6
+    wrap-ansi: ^6.0.1
+  checksum: b7e39a04da31207826f675e2ff491bd35bb28efbe336e8fb49641d8353d4a312943514452fb0a23702e64f70c7e44188586880c902d67541aae579cd6564c3fb
   languageName: node
   linkType: hard
 
@@ -3053,7 +3124,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.15, lodash@npm:^4.17.21":
+"lodash@npm:4.18.1, lodash@npm:^4.17.15, lodash@npm:^4.17.21":
   version: 4.18.1
   resolution: "lodash@npm:4.18.1"
   checksum: bb5f5b49aad29614e709af02b64c56b0f8b78c6a81434a3c1ae527d2f0f78ca08f9d9fb22aa825a053876c9d2166e9c01f31c356014b5e2bdc0556c057433102
@@ -3207,6 +3278,13 @@ __metadata:
   version: 1.2.7
   resolution: "minimist@npm:1.2.7"
   checksum: 7346574a1038ca23c32e02252f603801f09384dd1d78b69a943a4e8c2c28730b80e96193882d3d3b22a063445f460e48316b29b8a25addca2d7e5e8f75478bec
+  languageName: node
+  linkType: hard
+
+"minimist@npm:1.2.8":
+  version: 1.2.8
+  resolution: "minimist@npm:1.2.8"
+  checksum: 75a6d645fb122dad29c06a7597bddea977258957ed88d7a6df59b5cd3fe4a527e253e9bbf2e783e4b73657f9098b96a5fe96ab8a113655d4109108577ecf85b0
   languageName: node
   linkType: hard
 
@@ -3983,8 +4061,8 @@ __metadata:
     "@commitlint/cz-commitlint": 21.0.2
     "@types/node": 24.13.2
     ava: 6.4.1
-    commitizen: 4.3.1
-    eslint: 10.4.1
+    commitizen: 4.3.2
+    eslint: 10.5.0
     husky: 9.1.7
     inquirer: 14.0.2
     lint-staged: 17.0.7
@@ -4271,6 +4349,17 @@ __metadata:
     string-width: ^8.2.0
     strip-ansi: ^7.1.2
   checksum: 1ad55bbb6db345519834de53b93732a19abee0a3fc8315c7e037d7ae61420932335159f53f82259c2941dab91bda66b1b4886037216e1dfaae3f3b3fc6aa0a41
+  languageName: node
+  linkType: hard
+
+"wrap-ansi@npm:^6.0.1":
+  version: 6.2.0
+  resolution: "wrap-ansi@npm:6.2.0"
+  dependencies:
+    ansi-styles: ^4.0.0
+    string-width: ^4.1.0
+    strip-ansi: ^6.0.0
+  checksum: 6cd96a410161ff617b63581a08376f0cb9162375adeb7956e10c8cd397821f7eb2a6de24eb22a0b28401300bf228c86e50617cd568209b5f6775b93c97d2fe3a
   languageName: node
   linkType: hard
 
