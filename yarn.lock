@@ -257,21 +257,21 @@ __metadata:
   linkType: hard
 
 "@conventional-changelog/git-client@npm:^3.0.0":
-  version: 3.1.0
-  resolution: "@conventional-changelog/git-client@npm:3.1.0"
+  version: 3.1.1
+  resolution: "@conventional-changelog/git-client@npm:3.1.1"
   dependencies:
     "@simple-libs/child-process-utils": ^2.0.0
     "@simple-libs/stream-utils": ^2.0.0
     semver: ^7.5.2
   peerDependencies:
     conventional-commits-filter: ^6.0.1
-    conventional-commits-parser: ^7.0.1
+    conventional-commits-parser: ^7.1.2
   peerDependenciesMeta:
     conventional-commits-filter:
       optional: true
     conventional-commits-parser:
       optional: true
-  checksum: d8261a0ddfb373b706c56d5c2f0378df070622891d663cd6e4aff5c3902dfb8d7cee38add4b6bd2457ab7309ac8ea83e7a39bddc5a96b5111e457b96ce82d82a
+  checksum: 84c8adc6c7a4b84cb224a42a382e95313f948de324a5ed2abaa69d4aa0b08a94ff6c63b84adc1d341f96371d92e5d06840d57e8bf3d62dea6638565c99be4a93
   languageName: node
   linkType: hard
 
