@@ -29,7 +29,7 @@
     "commitizen": "4.3.2",
     "eslint": "10.9.1",
     "husky": "9.1.7",
-    "inquirer": "14.2.0",
+    "inquirer": "14.2.1",
     "lint-staged": "17.4.1",
     "pinst": "3.0.0",
     "ts-node": "10.9.2",
