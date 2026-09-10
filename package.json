@@ -24,7 +24,7 @@
     "@commitlint/cli": "21.2.2",
     "@commitlint/config-conventional": "21.2.2",
     "@commitlint/cz-commitlint": "21.2.2",
-    "@types/node": "24.13.3",
+    "@types/node": "24.13.4",
     "ava": "6.4.1",
     "commitizen": "4.3.2",
     "eslint": "10.10.0",
