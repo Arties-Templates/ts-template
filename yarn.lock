@@ -2620,9 +2620,9 @@ __metadata:
   linkType: hard
 
 "ignore@npm:^7.0.3":
-  version: 7.0.8
-  resolution: "ignore@npm:7.0.8"
-  checksum: cad33db849f3fdc572c20e239962111b03ee303a0858d1d832b386b28cde016862c0e0b2c9e98801852ad37a99f3b70ab5572d1bcc705cc10d8e73295d2441dd
+  version: 7.0.9
+  resolution: "ignore@npm:7.0.9"
+  checksum: 5d2c5369db4f940fa65dfa2a95af9a3877b1b36b8d7ad991f457200f3f5f8996c93eb84f8151f3b0a4ed02e0d2f39d50114868d82cb7820bcbe76bdbb1298e18
   languageName: node
   linkType: hard
 
@@ -3319,9 +3319,9 @@ __metadata:
   linkType: hard
 
 "p-map@npm:^7.0.3":
-  version: 7.0.7
-  resolution: "p-map@npm:7.0.7"
-  checksum: 261583afdbef1cde1bf1df4ff114ed1f21a6dd20b332e8c3a23bd9989150f1e9cc50481a55a74e114b9bccf01f47f6c141cf84912f26ea3134c4c7cda51f5006
+  version: 7.0.8
+  resolution: "p-map@npm:7.0.8"
+  checksum: 3a63966329034e74b33be41a9f5dd13538f38c010ab36cc29aff5ec5f3071648176cfb52c1ac26949d2b24d0cf8c5088440b81b8965d07b1cadf80e67312ee09
   languageName: node
   linkType: hard
 
@@ -4212,11 +4212,11 @@ __metadata:
   linkType: hard
 
 "yaml@npm:^2.9.0":
-  version: 2.9.0
-  resolution: "yaml@npm:2.9.0"
+  version: 2.9.1
+  resolution: "yaml@npm:2.9.1"
   bin:
     yaml: bin.mjs
-  checksum: f0f74b349c126bb9acf649be1e7efaec5869b1567bdc047e43b176bcdd7730a9bc7ab8fc9c6b1c358e611fab0fe0a0d8933393f1af383a7dc0b4755a1d5f31f9
+  checksum: 583253ce0075cc1b7a4328116380ae2a97d6feb62677ba5d52f7cb774de6e34f1d9e655aaa536347ced55fcaede020253212d1c60c98fc672d43be23ebfcd862
   languageName: node
   linkType: hard
 
