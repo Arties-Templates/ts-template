@@ -893,12 +893,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:24.13.5":
-  version: 24.13.5
-  resolution: "@types/node@npm:24.13.5"
+"@types/node@npm:24.13.6":
+  version: 24.13.6
+  resolution: "@types/node@npm:24.13.6"
   dependencies:
     undici-types: ~7.18.0
-  checksum: 112e7090308a8414630c2d357aca92ec3c483226cf5d3b2672108b70a0fadc50c9839a215dee48061a110392f4e7cb1662e852142e78fe83ce05bd57c7562cff
+  checksum: 503acaddfe1fdbaf894c1d4be792d62f69b573fa70644f4d3bfd5e830f4071d9ec4dcc8d6394312e49e9b0acda41e8980fd921b07ab950c1fe70866a703f07d6
   languageName: node
   linkType: hard
 
@@ -2011,9 +2011,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:10.10.0":
-  version: 10.10.0
-  resolution: "eslint@npm:10.10.0"
+"eslint@npm:10.11.0":
+  version: 10.11.0
+  resolution: "eslint@npm:10.11.0"
   dependencies:
     "@eslint-community/eslint-utils": ^4.8.0
     "@eslint-community/regexpp": ^4.12.2
@@ -2052,7 +2052,7 @@ __metadata:
       optional: true
   bin:
     eslint: bin/eslint.js
-  checksum: 37b2faadefc36876599d1b5c4f817513eb458079ba8bf56ba6a4b7847a7138ca23613997ccf94398d8fa3f53e38f3cac6a9f9f8a032f1070a66b1a51952bddda
+  checksum: 4836916ccd27397c16f464658ba293797abee7967cae6bdff0134381897766d00489751b6be2c3a95e21d8f18e4ff154b5b99f0e233bdc2f7f882676313ec0cb
   languageName: node
   linkType: hard
 
@@ -3874,10 +3874,10 @@ __metadata:
     "@commitlint/cli": 21.2.2
     "@commitlint/config-conventional": 21.2.2
     "@commitlint/cz-commitlint": 21.2.2
-    "@types/node": 24.13.5
+    "@types/node": 24.13.6
     ava: 6.4.1
     commitizen: 4.3.2
-    eslint: 10.10.0
+    eslint: 10.11.0
     husky: 9.1.7
     inquirer: 14.2.2
     lint-staged: 17.5.1
