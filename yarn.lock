@@ -180,24 +180,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:>6.1.1":
-  version: 21.2.3
-  resolution: "@commitlint/load@npm:21.2.3"
-  dependencies:
-    "@commitlint/config-validator": ^21.2.3
-    "@commitlint/execute-rule": ^21.0.1
-    "@commitlint/resolve-extends": ^21.2.3
-    "@commitlint/types": ^21.2.3
-    cosmiconfig: ^9.0.1
-    cosmiconfig-typescript-loader: ^6.1.0
-    es-toolkit: ^1.46.0
-    is-plain-obj: ^4.1.0
-    picocolors: ^1.1.1
-  checksum: b56e90bf16f8bb9dcdaafe425a47fa9a2f65d7ec8bf4e6b6e7e2ff91739824e3947fbbbd27dda6cc49a193531206f86c73923056f1f435803bcbaff0c2b4433d
-  languageName: node
-  linkType: hard
-
-"@commitlint/load@npm:^21.2.4":
+"@commitlint/load@npm:>6.1.1, @commitlint/load@npm:^21.2.4":
   version: 21.2.4
   resolution: "@commitlint/load@npm:21.2.4"
   dependencies:
@@ -1736,19 +1719,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cosmiconfig-typescript-loader@npm:^6.1.0":
-  version: 6.3.0
-  resolution: "cosmiconfig-typescript-loader@npm:6.3.0"
-  dependencies:
-    jiti: 2.6.1
-  peerDependencies:
-    "@types/node": "*"
-    cosmiconfig: ">=9"
-    typescript: ">=5"
-  checksum: b6e038abd57bdd20ff4c05d0ade85f082de1af5f4063f688fc6dab1343a995f01a6ed5597e8158e16478cd2509fbb9b7677a5d8e6d18abe7a4c0f373b6493de2
-  languageName: node
-  linkType: hard
-
 "cosmiconfig@npm:^9.0.1":
   version: 9.0.2
   resolution: "cosmiconfig@npm:9.0.2"
@@ -2871,15 +2841,6 @@ __metadata:
     "@pkgjs/parseargs":
       optional: true
   checksum: be31027fc72e7cc726206b9f560395604b82e0fddb46c4cbf9f97d049bcef607491a5afc0699612eaa4213ca5be8fd3e1e7cd187b3040988b65c9489838a7c00
-  languageName: node
-  linkType: hard
-
-"jiti@npm:2.6.1":
-  version: 2.6.1
-  resolution: "jiti@npm:2.6.1"
-  bin:
-    jiti: lib/jiti-cli.mjs
-  checksum: 9394e29c5e40d1ca8267923160d8d86706173c9ff30c901097883434b0c4866de2c060427b6a9a5843bb3e42fa3a3c8b5b2228531d3dd4f4f10c5c6af355bb86
   languageName: node
   linkType: hard
 
