@@ -2611,9 +2611,9 @@ __metadata:
   linkType: hard
 
 "ignore@npm:^7.0.3":
-  version: 7.0.14
-  resolution: "ignore@npm:7.0.14"
-  checksum: 67c82d33d576ce95cab6c54c79e77c3856462794f8f4c782e341dcadd8b89951d2d2c86aafa65d60d45957b529e130ac44142bc291b13e4b0c35ce0f34719f8d
+  version: 7.0.16
+  resolution: "ignore@npm:7.0.16"
+  checksum: 91bc728a02e8742879924837331ffcb97400fd1e938ea2269c6a541d973d61d36d4768dd790d79d86c83390d60948c1aea726fa4e4cb6f0a3f0de87e12d89da3
   languageName: node
   linkType: hard
 
@@ -3105,12 +3105,12 @@ __metadata:
   linkType: hard
 
 "minimatch@npm:^11.0.5":
-  version: 11.0.8
-  resolution: "minimatch@npm:11.0.8"
+  version: 11.0.9
+  resolution: "minimatch@npm:11.0.9"
   dependencies:
     "@isaacs/nonrecursive-glob-match": ^1.1.0
     brace-expansion: ^5.0.12
-  checksum: 4fa5bfa6b03cfd1a08744d7291bbcb1b2fabe5d10b10d8536dfcca60f4a5eb6f0ddcfd04334d64b5119f8d3b340f25c5f4d67a099fc72cb7f46e48ea417bac73
+  checksum: 740254a7cd0ae37f4fb736d58f980791656d82a39528ac82ee0033d16e5df801c62b96b6d0a74aadc8a635fadfac6ff257779e6f36d0207fe9da0bc3c7f8521f
   languageName: node
   linkType: hard
 
